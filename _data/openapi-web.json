@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Home - OpenAPI Initiative",
+    "snippet": "The OpenAPI Specification: a broadly adopted industry standard for describing modern APIs. READ NOW. ASC 2020 Videos. How to contribute to the OAS. Submit an issue on GitHub",
+    "url": "https://www.openapis.org/",
+    "domain": "openapis.org"
+  },
+  {
+    "name": "OpenAPI Specification - Version 3.0.3 | Swagger",
+    "snippet": "The OpenAPI Specification defines a standard interface to RESTful APIs which allows both humans and computers to understand service capabilities without access to source code, documentation, or network traffic inspection.",
+    "url": "https://swagger.io/specification/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "Open API - Wikipedia",
+    "snippet": "An open API (often referred to as a public API) is a publicly available application programming interface that provides developers with programmatic access to a proprietary software application or web service. APIs are sets of requirements that govern how one application can communicate and interact with another. APIs can also allow developers to access certain internal functions of a program ...",
+    "url": "https://en.wikipedia.org/wiki/Open_API",
+    "domain": "en.wikipedia.org"
+  },
+  {
+    "name": "Develop ASP.NET Core apps using OpenAPI | Microsoft Docs",
+    "snippet": "Adding an OpenAPI reference using any of the commands on this page adds an <OpenApiReference /> element similar to the following to the .csproj file: <OpenApiReference Include=\"openapi.json\" /> The preceding reference is required for the app to call the generated client code.",
+    "url": "https://docs.microsoft.com/en-us/aspnet/core/web-api/Microsoft.dotnet-openapi",
+    "domain": "docs.microsoft.com"
+  },
+  {
+    "name": "OpenAPI Specification - Wikipedia",
+    "snippet": "The OpenAPI Specification, originally known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services. Originally part of the Swagger framework, it became a separate project in 2016, overseen by the OpenAPI Initiative, an open-source collaboration project of the Linux Foundation.",
+    "url": "https://en.wikipedia.org/wiki/OpenAPI_Specification",
+    "domain": "en.wikipedia.org"
+  },
+  {
+    "name": "OpenAPI.Tools",
+    "snippet": "It supports importing OpenAPI v2 and v3 definitions to allow an API to be thoroughly security tested. Java StackHawk HawkScan - StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.",
+    "url": "https://openapi.tools/",
+    "domain": "openapi.tools"
+  },
+  {
+    "name": "GitHub - OAI/OpenAPI-Specification: The OpenAPI ...",
+    "snippet": "The OpenAPI Specification. The OpenAPI Specification is a community-driven open specification within the OpenAPI Initiative, a Linux Foundation Collaborative Project.. The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without ...",
+    "url": "https://github.com/OAI/OpenAPI-Specification/",
+    "domain": "github.com"
+  },
+  {
+    "name": "Understanding gRPC, OpenAPI and REST and when to use them ...",
+    "snippet": "OpenAPI calls the variables in these paths \"parameters\" and the combination of a path and an HTTP method is called an operation—similar terminology to RPC systems. OpenAPI's use of URL templates with parameters can be viewed as a way to express RPC-like concepts with custom mappings to HTTP. OpenAPI advantages and disadvantages",
+    "url": "https://cloud.google.com/blog/products/api-management/understanding-grpc-openapi-and-rest-and-when-to-use-them",
+    "domain": "cloud.google.com"
+  },
+  {
+    "name": "What Is the Difference Between Swagger and OpenAPI?",
+    "snippet": "The OpenAPI is the official name of the specification. The development of the specification is fostered by the OpenAPI Initiative, which involves more the 30 organizations from different areas of the tech world — including Microsoft, Google, IBM, and CapitalOne.",
+    "url": "https://smartbear.com/blog/what-is-the-difference-between-swagger-and-openapi/",
+    "domain": "smartbear.com"
+  },
+  {
+    "name": "Basic Structure - Swagger",
+    "snippet": "The OpenAPI version defines the overall structure of an API definition – what you can document and how you document it. OpenAPI 3.0 uses semantic versioning with a three-part version number. The available versions are 3.0.0, 3.0.1, 3.0.2, and 3.0.3; they are functionally the same.",
+    "url": "https://swagger.io/docs/specification/basic-structure/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "What is OpenAPI? | OpenAPI Definition | API Glossary",
+    "snippet": "What is OpenAPI? As the world is moving towards service-based apps and state-of-the-art microservices, it has become vitally essential for programmers to have a standard interface definition for their RESTful APIs. This is where OpenAPI comes in handy. Also known as OpenAPI specification (OpenAPI) helps developers to simplify application development when multiple protocols, interfaces, and […]",
+    "url": "https://rapidapi.com/blog/api-glossary/openapi/",
+    "domain": "rapidapi.com"
+  },
+  {
+    "name": "Expose your functions with OpenAPI using Azure API ...",
+    "snippet": "Download the OpenAPI definition. If your API works as expected, you can download the OpenAPI definition. Select Download OpenAPI definition at the top of the page. Save the downloaded JSON file, and then open it. Review the definition. Clean up resources. In the preceding steps, you created Azure resources in a resource group.",
+    "url": "https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition",
+    "domain": "docs.microsoft.com"
+  },
+  {
+    "name": "Swagger UI",
+    "snippet": "This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger.For this sample, you can use the ...",
+    "url": "https://petstore.swagger.io/",
+    "domain": "petstore.swagger.io"
+  },
+  {
+    "name": "GitHub - microsoft/OpenAPI.NET: The OpenAPI.NET SDK ...",
+    "snippet": "The OpenAPI.NET SDK contains a useful object model for OpenAPI documents in .NET along with common serializers to extract raw OpenAPI JSON and YAML documents from the model.. See more information on the OpenAPI specification and its history here: OpenAPI Initiative Project Objectives. Provide a single shared object model in .NET for OpenAPI descriptions.",
+    "url": "https://github.com/Microsoft/OpenAPI.NET",
+    "domain": "github.com"
+  },
+  {
+    "name": "OpenAPI—IntelliJ IDEA",
+    "snippet": "OpenAPI. An OpenAPI Specification (OAS) is a description format for REST APIs. Swagger is a set of tools based on this specification for writing, documenting, and consuming REST APIs. For more information, see Swagger documentation.. IntelliJ IDEA provides coding assistance for OpenAPI definitions in YAML and JSON files, and integration with Swagger Codegen for generating server stubs, client ...",
+    "url": "https://www.jetbrains.com/help/idea/openapi.html",
+    "domain": "jetbrains.com"
+  },
+  {
+    "name": "AutoRest and OpenAPI: The backbone of Azure SDK | Azure ...",
+    "snippet": "OpenAPI is a specification language that enables one to describe a web service API in terms of its operations and the data types it understands. It was originally conceived in 2011 as a specification called Swagger to enable generation of documentation and client libraries for the REST APIs of a company called Wordnik. Over time, more companies ...",
+    "url": "https://devblogs.microsoft.com/azure-sdk/code-generation-with-autorest/",
+    "domain": "devblogs.microsoft.com"
+  },
+  {
+    "name": "About - OpenAPI Initiative",
+    "snippet": "The OpenAPI Initiative (OAI) was created by a consortium of forward-looking industry experts who recognize the immense value of standardizing on how APIs are described. As an open governance structure under the Linux Foundation, the OAI is focused on creating, evolving and promoting a vendor neutral description format.",
+    "url": "https://www.openapis.org/about",
+    "domain": "openapis.org"
+  },
+  {
+    "name": "OpenAPI—AppCode",
+    "snippet": "OpenAPI. An OpenAPI Specification (OAS) is a description format for REST APIs. Swagger is a set of tools based on this specification for writing, documenting, and consuming REST APIs. For more information, see Swagger documentation.. AppCode provides coding assistance for OpenAPI definitions in YAML and JSON files, and integration with Swagger Codegen for generating server stubs, client ...",
+    "url": "https://www.jetbrains.com/help/objc/openapi.html",
+    "domain": "jetbrains.com"
+  },
+  {
+    "name": "Benefits of Using the OpenAPI (Swagger) Specification for ...",
+    "snippet": "The OpenAPI specification was known as Swagger until version 3.0 was released in 2017, when it was renamed to OpenAPI. It’s a language agnostic way to describe a RESTful API, that can be used to ...",
+    "url": "https://dzone.com/articles/benefits-of-using-the-openapi-swagger-specificatio",
+    "domain": "dzone.com"
+  },
+  {
+    "name": "OpenAPI overview | Cloud Endpoints with OpenAPI | Google Cloud",
+    "snippet": "OpenAPI extensions available for Endpoints APIs. Generating an OpenAPI document. Depending on what language you are using, you might be able to generate an OpenAPI document. In Java, there are open source projects for both Jersey and Spring that can generate an OpenAPI document from annotations.",
+    "url": "https://cloud.google.com/endpoints/docs/openapi/openapi-overview",
+    "domain": "cloud.google.com"
+  },
+  {
+    "name": "OpenAPI | Drupal.org",
+    "snippet": "This module allows you to make your RESTful webservices and JSON:API discoverable using the OpenAPI standard (A.K.A. Swagger). This can then be used by tools like Swagger UI, Swagger Code Gen, and Paw to inspect and test your web services. This module provides integration with Drupal Core's Rest API to document the entity routes, and the contributed JSON:API module.",
+    "url": "https://www.drupal.org/project/openapi",
+    "domain": "drupal.org"
+  },
+  {
+    "name": "Manning | Designing APIs with Swagger and OpenAPI",
+    "snippet": "Customer-facing and internal APIs have become the most common way to integrate the components of web-based software. Using standards like OpenAPI, you can provide reliable, easy-to-use interfaces that allow other developers safe, controlled access to your software. Designing APIs with Swagger and OpenAPI is a hands-on primer to properly designing and describing your APIs using the most widely ...",
+    "url": "https://www.manning.com/books/designing-apis-with-swagger-and-openapi",
+    "domain": "manning.com"
+  },
+  {
+    "name": "Working with OpenAPI definitions for HTTP APIs - Amazon ...",
+    "snippet": "A property is valid according to the OpenAPI specification, but that property isn’t supported for HTTP APIs. For example, the following OpenAPI 3.0 snippet produces info on import because HTTP APIs don't support request validation.",
+    "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-open-api.html",
+    "domain": "docs.aws.amazon.com"
+  },
+  {
+    "name": "Your Guide To OpenAPI | Nordic APIs",
+    "snippet": "OpenAPI is one of the most efficient ways to ensure your data is accessible for as many API consumers as possible. OpenAPI is also firmly in keeping with the original democratic, egalitarian spirit of the Internet, with its utopian vision of high-quality data and information for everybody.",
+    "url": "https://nordicapis.com/your-guide-to-openapi/",
+    "domain": "nordicapis.com"
+  },
+  {
+    "name": "AsyncAPI vs OpenAPI: What's The Difference? | Nordic APIs",
+    "snippet": "OpenAPI Specification, known formerly as the Swagger, is a solution that produces machine-readable documentation for REST APIs.Initially developed in 2010, Swagger was later acquired in 2015 by SmartBear Software. As Swagger was developed and expanded, the Open API Initiative was launched to further develop and promote the Swagger toolset in an open format, supported by major industry players ...",
+    "url": "https://nordicapis.com/asyncapi-vs-openapi-whats-the-difference/",
+    "domain": "nordicapis.com"
+  },
+  {
+    "name": "Using OpenAPI with .NET Core - Red Hat Developer",
+    "snippet": "OpenAPI is a specification for describing RESTful APIs. First, I’ll show you how to use OpenAPI to describe the APIs provided by an ASP.NET Core service. Then, we’ll use the API description to generate a strongly-typed client to use the web service with C#.",
+    "url": "https://developers.redhat.com/blog/2020/09/16/using-openapi-with-net-core/",
+    "domain": "developers.redhat.com"
+  },
+  {
+    "name": "Generate Client for ASP.NET Core Web API using OpenAPI",
+    "snippet": "Using the NSwag Code Generated OpenAPI Client. We're now ready to consume the ASP.NET Core 5 Web API using the client generated by NSwag based on the OpenAPI Specification Document. Shown below is a simple .NET Core 5 Console Application that calls the ASP.NET Core Web API to get the weather forecast.",
+    "url": "https://www.davidhayden.me/blog/generate-client-for-asp-net-core-web-api-using-openapi",
+    "domain": "davidhayden.me"
+  },
+  {
+    "name": "OpenAPI | Software AG",
+    "snippet": "OpenAPI is the de facto largest industry standard for specifying RESTful APIs with a 70-80% adoption rate . Alternatives are RAML4 (RESTful API Modeling Language), GraphQL, API Blueprint, WADL (web application description language), Slate, gRPC and minor others.",
+    "url": "https://techradar.softwareag.com/technology/openapi/",
+    "domain": "techradar.softwareag.com"
+  },
+  {
+    "name": "OpenAPI and gRPC Side-by-Side. Spend some time working ...",
+    "snippet": "The biggest OpenAPI code generation project is called swagger-codegen, but there are several other code generators available including AutoRest by Microsoft, a project from Capital One called oas ...",
+    "url": "https://medium.com/apis-and-digital-transformation/openapi-and-grpc-side-by-side-b6afb08f75ed",
+    "domain": "medium.com"
+  },
+  {
+    "name": "OpenAPI 3 Library for spring-boot",
+    "snippet": "springdoc-openapi java library helps automating the generation of API documentation using spring boot projects. springdoc-openapi works by examining an application at runtime to infer API semantics based on spring configurations, class structure and various annotations.",
+    "url": "https://springdoc.org/",
+    "domain": "springdoc.org"
+  },
+  {
+    "name": "Hello from OpenAPI Generator",
+    "snippet": "The OpenAPI Generator image acts as a standalone executable. It can be used as an alternative to installing via homebrew, or for developers who are unable to install Java or upgrade the installed version. To generate code from a valid petstore.yaml doc with this image, ...",
+    "url": "https://openapi-generator.tech/",
+    "domain": "openapi-generator.tech"
+  },
+  {
+    "name": "Introduction to the OpenAPI specification | Documenting APIs",
+    "snippet": "OpenAPI is a specification for describing REST APIs. If you’re familiar with tech comm specifications, you can think of the OpenAPI specification like the DITA specification. With DITA, there are specific XML elements used to define help components, and a required order and hierarchy to those elements. Different tools can read DITA and build out a documentation website from the elements.",
+    "url": "https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html",
+    "domain": "idratherbewriting.com"
+  },
+  {
+    "name": "OpenAPI (Swagger) Editor - Visual Studio Marketplace",
+    "snippet": "OpenAPI extension for Visual Studio Code. This Visual Studio Code (VS Code) extension adds rich support for the OpenAPI Specification (OAS) (formerly known as Swagger Specification) in JSON or YAML format. The features include, for example, SwaggerUI and ReDoc preview,IntelliSense, linting, schema enforcement, code navigation, definition links, snippets, static security analysis, and more!",
+    "url": "https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi",
+    "domain": "marketplace.visualstudio.com"
+  },
+  {
+    "name": "OpenAPI and JSON Schema: When to Use Which | Stoplight API ...",
+    "snippet": "Behind the divergence in data formats and how you can solve it",
+    "url": "https://stoplight.io/blog/openapi-json-schema/",
+    "domain": "stoplight.io"
+  },
+  {
+    "name": "OpenAPI | Postman Learning Center",
+    "snippet": "OpenAPI. You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML.",
+    "url": "https://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/",
+    "domain": "learning.postman.com"
+  },
+  {
+    "name": "OpenAPI - ReadMe",
+    "snippet": "The OpenAPI Specification was developed privately for several years under the name Swagger. Back when it was known as Swagger 2.0, the specification was donated to the OpenAPI Initiative and became an open standard in 2015. Version 3.0.0 was released under the name OpenAPI Specification 3.0.0.",
+    "url": "https://docs.readme.com/docs/openapi",
+    "domain": "docs.readme.com"
+  },
+  {
+    "name": "CLI Installation - openapi generator",
+    "snippet": "The OpenAPI Generator Docker image acts as a standalone executable. It can be used as an alternative to installing via homebrew, or for developers who are unable to install Java or upgrade the installed version. To generate code from a valid petstore.yaml doc with this image, you'll need to mount a local location as a volume. You'll then need ...",
+    "url": "https://openapi-generator.tech/docs/installation/",
+    "domain": "openapi-generator.tech"
+  },
+  {
+    "name": "openapi-python-client · PyPI",
+    "snippet": "openapi-python-client. Generate modern Python clients from OpenAPI 3.x documents. This generator does not support OpenAPI 2.x FKA Swagger. If you need to use an older document, try upgrading it to version 3 first with one of many available converters.",
+    "url": "https://pypi.org/project/openapi-python-client/",
+    "domain": "pypi.org"
+  },
+  {
+    "name": "OpenAPI | docs.camunda.org",
+    "snippet": "OpenAPI is a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. The OpenAPI description brings options for:",
+    "url": "https://docs.camunda.org/manual/latest/reference/rest/openapi/",
+    "domain": "docs.camunda.org"
+  },
+  {
+    "name": "OpenAI API",
+    "snippet": "We’re releasing an API for accessing new AI models developed by OpenAI. Unlike most AI systems which are designed for one use-case, the API today provides a general-purpose “text in, text out” interface, allowing users to try it on virtually any English language task. You can now request access",
+    "url": "https://openai.com/blog/openai-api/",
+    "domain": "openai.com"
+  },
+  {
+    "name": "Spectral - Open Source API Description Linter | Stoplight",
+    "snippet": "Spectral is an open source OpenAPI linter, which can tell you not just if your API descriptions are valid, but if they are any good.",
+    "url": "https://stoplight.io/open-source/spectral/",
+    "domain": "stoplight.io"
+  },
+  {
+    "name": "openapi-schema-pydantic · PyPI",
+    "snippet": "OpenAPI (v3) specification schema as pydantic class. Non-pydantic schema types. Some schema types are not implemented as pydantic classes.",
+    "url": "https://pypi.org/project/openapi-schema-pydantic/",
+    "domain": "pypi.org"
+  },
+  {
+    "name": "Postman Supports OpenAPI 3.0 - Postman Blog",
+    "snippet": "OpenAPI is a popular format because the specifications are written in JSON or YAML and are both, human and machine-readable. OpenAPI provides a standardized format which allows API developers to perform quick and simple validation, auto-generate documentation with examples for easy integration, auto-generate client libraries and tests, and more.",
+    "url": "https://blog.postman.com/postman-supports-openapi-3-0/",
+    "domain": "blog.postman.com"
+  },
+  {
+    "name": "OpenAPI for API Specifications: Go from Beginner to Guru ...",
+    "snippet": "The OpenAPI specification is the cornerstone of a thriving open source community. Simply perform a search for OpenAPI tools and you will find projects for converters, documentation, validators, editors, mock servers, testing tools and much much more! From the OpenAPI specification, you can generate client side source code for over 50 languages.",
+    "url": "https://www.udemy.com/course/openapi-beginner-to-guru/",
+    "domain": "udemy.com"
+  },
+  {
+    "name": "openapi-lint - Visual Studio Marketplace",
+    "snippet": "openapi-lint README. This extension can be used to validate and lint OpenAPI 3.0.x documents, and convert between OpenAPI 2.0 and 3.0.0. It provides 11 Visual Studio Code commands: OpenAPI Validate - which fully validates your OpenAPI document against the specification; OpenAPI Lint - which additionally applies a lightly-opinionated set of best-practices",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mermade.openapi-lint",
+    "domain": "marketplace.visualstudio.com"
+  },
+  {
+    "name": "Implementing a Simple REST API using OpenAPI, Flask ...",
+    "snippet": "#OpenAPI. Openapi or the Openapi Specification (OAS), defines a standard language agnostic approach to developing RESTful APIs, which are both human and machine readable. #Swagger. A set of open-source tools built around the OAS that help support development, including: Swagger Editor: Browser based editor where you can write (and view) OpenAPI ...",
+    "url": "https://haseebmajid.dev/blog/rest-api-openapi-flask-connexion",
+    "domain": "haseebmajid.dev"
+  },
+  {
+    "name": "Amazon API Gateway adds support for OpenAPI 3.0 API ...",
+    "snippet": "The OpenAPI specification is a widely adopted standard for documenting APIs. OpenAPI 3.0 is the latest version of the OpenAPI specification and offers a number of improvements over OpenAPI 2. Support for this specification will allow our customers to improve API development and better compatibility with other tools in the API ecosystem.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2018/09/amazon-api-gateway-adds-support-for-openapi-3-api-specification/",
+    "domain": "aws.amazon.com"
+  },
+  {
+    "name": "What is an Open API (Public API) and How Does it Work?",
+    "snippet": "open API (public API): An open API, also known as a public API, is an application programming interface that allows the owner of a network-accessible service to give universal access to consumers of that service, such as developers.",
+    "url": "https://searchapparchitecture.techtarget.com/definition/open-API-public-API",
+    "domain": "searchapparchitecture.techtarget.com"
+  },
+  {
+    "name": "OpenAPI | OpenAPI Definition & Online Tools | Open API ...",
+    "snippet": "Discussing the OpenAPI specification standard, what benefits OpenAPI provides to development, and what OpenAPI tools are available.",
+    "url": "https://stoplight.io/openapi/",
+    "domain": "stoplight.io"
+  },
+  {
+    "name": "API Documentation & Design Tools for Teams | Swagger",
+    "snippet": "The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design. Explore OAS. Open Source Tools. Individual tools to create, update and share OpenAPI definitions with consumers. Explore Open Source Tools. SwaggerHub.",
+    "url": "https://swagger.io/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "OpenAPI (Swagger) Editor - Plugins | JetBrains",
+    "snippet": "Provides support for editing the OpenAPI files (formerly known as Swagger).. Features. Supports versions 2.x and 3.x of OpenAPI. Supports both YAML and JSON formats. Validation using OpenAPI JSON Schemas.",
+    "url": "https://plugins.jetbrains.com/plugin/14837-openapi-swagger-editor",
+    "domain": "plugins.jetbrains.com"
+  },
+  {
+    "name": "OpenAPI: Documentation Tool Overview | by Sebastian | Jan ...",
+    "snippet": "With OpenAPI, you provide in a declarative, JSON or YAML based format, the technical specification of an API. This documentation contains all necessary data to interact with your API, including endpoints, request parameters (query parameters or body payload) and the responses (status code, data).",
+    "url": "https://admantium.medium.com/openapi-documentation-tool-overview-92dd4060530f",
+    "domain": "admantium.medium.com"
+  },
+  {
+    "name": "OpenAPI (Swagger) Specification for Software Developers ...",
+    "snippet": "This practical course will help you in answering all these and achieving proficiency using the Open API (Swagger Specification) for any programming language. At The End Of This Course. You will know the structure of an OpenAPI Specification and the steps to create one from scratch. You will be able to understand any OpenAPI Specification document.",
+    "url": "https://www.udemy.com/course/openapi-swagger-specification/",
+    "domain": "udemy.com"
+  },
+  {
+    "name": "Share your OAS Implementations! - OpenAPI Initiative",
+    "snippet": "The OpenAPI Initiative’s Technical Developer Community is looking for feedback on how you are implementing the the OpenAPI Specification v3.. Share with us how you are using the OAS, some of the things you are excited to see updated and even the things we missed.",
+    "url": "https://www.openapis.org/specification/v3implementations-form",
+    "domain": "openapis.org"
+  },
+  {
+    "name": "Unchase OpenAPI (Swagger) Connected Service - Visual ...",
+    "snippet": "Unchase OpenAPI (Swagger) Connected Service is a Visual Studio 2017/2019 extension to generate C# (TypeScript) HttpClient (or C# Controllers) code for OpenAPI (formerly Swagger API) web service with NSwag.. Extension now supports yaml-specifications and specification endpoints ends with not only .json!. For VisualStudio 2019: Starting from v16.1.3 extensions based on Microsoft Connected ...",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Unchase.unchaseopenapiconnectedservice",
+    "domain": "marketplace.visualstudio.com"
+  },
+  {
+    "name": "Visualize OpenAPI (Swagger) documentation | Atlassian ...",
+    "snippet": "Post your OpenAPI compliant documentation to the widget and get nicely generated interactive application on your page. Easy to use, popular and familiar user interface. Most developers are already familiar with it.",
+    "url": "https://marketplace.atlassian.com/apps/1220001/visualize-openapi-swagger-documentation",
+    "domain": "marketplace.atlassian.com"
+  },
+  {
+    "name": "OpenAPI tutorial using Swagger Editor and Swagger UI ...",
+    "snippet": "Swagger UI is sponsored by Smartbear, the same company that is heavily invested in the OpenAPI initiative and which develops SwaggerHub (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the OpenAPI specification, as the Linux Foundation drives this initiative.",
+    "url": "https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html",
+    "domain": "idratherbewriting.com"
+  },
+  {
+    "name": "openapi · PyPI",
+    "snippet": "Python OpenAPI 2.0 (Swagger) object model. Download files. Download the file for your platform. If you're not sure which to choose, learn more about installing packages.",
+    "url": "https://pypi.org/project/openapi/",
+    "domain": "pypi.org"
+  },
+  {
+    "name": "SOL OpenAPI Representations - NFVwiki",
+    "snippet": "The OpenAPI button links to the raw text files. They will open a page in the browser with a lot of non readable text and they are meant to be downloaded or used as input for other tools; The UI button links to the graphical view of the interface using the Swagger UI tool hosted at the Forge. If you want to know more about the Swagger UI tool ...",
+    "url": "https://nfvwiki.etsi.org/index.php?title=SOL_OpenAPI_Representations",
+    "domain": "nfvwiki.etsi.org"
+  },
+  {
+    "name": "REST Servers in Go: Part 4 - using OpenAPI and Swagger ...",
+    "snippet": "Swagger and OpenAPI. Swagger was initially released in 2011 as an IDL for describing REST APIs.. The original motivation for Swagger was auto-generating documentation for REST APIs, as well as trying out sample interactions with the API . The year 2014 saw the release of version 2.0, and in 2016 a bunch of large companies in the industry teamed up to create OpenAPI - a more standardized ...",
+    "url": "https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/",
+    "domain": "eli.thegreenplace.net"
+  },
+  {
+    "name": "OpenAPI for REST | Drupal.org",
+    "snippet": "Integrates with the base Open API module to generate the definitions for core REST. If you want documentation of your core REST powered API, you need to enable this module and a documentation generator like Open API UI ReDoc. Check out the Open API project for more information about alternative UI generators. This module requires Open API 2.x or above.",
+    "url": "https://www.drupal.org/project/openapi_rest",
+    "domain": "drupal.org"
+  },
+  {
+    "name": "NuGet Gallery | Microsoft.OpenApi 1.2.3",
+    "snippet": "<PackageReference Include=\"Microsoft.OpenApi\" Version=\"1.2.3\" /> For projects that support PackageReference , copy this XML node into the project file to reference the package. paket add Microsoft.OpenApi --version 1.2.3",
+    "url": "https://www.nuget.org/packages/Microsoft.OpenApi/",
+    "domain": "nuget.org"
+  },
+  {
+    "name": "Quarkus - Using OpenAPI and Swagger UI",
+    "snippet": "An OpenAPI document that conforms to the OpenAPI Specification is itself a valid JSON object, that can be represented in yaml or json formats. To see this in action, we’ll put OpenAPI documentation under META-INF/openapi.yaml for our /fruits endpoints.",
+    "url": "https://quarkus.io/guides/openapi-swaggerui",
+    "domain": "quarkus.io"
+  },
+  {
+    "name": "Vonage Joins OpenAPI Initiative - prnewswire.com",
+    "snippet": "The OpenAPI Initiative (OAI) was created by a consortium of forward-looking industry experts who recognize the immense value of standardizing on how APIs are described. As an open governance ...",
+    "url": "https://www.prnewswire.com/news-releases/vonage-joins-openapi-initiative-301224280.html",
+    "domain": "prnewswire.com"
+  },
+  {
+    "name": "Open API Specification, Spec & Documentation | OpenAPI ...",
+    "snippet": "Discussing API design, contract testing, and reference documentation using the OpenAPI specification standard.",
+    "url": "https://stoplight.io/openapi/design/",
+    "domain": "stoplight.io"
+  },
+  {
+    "name": "OpenAPI Specification: How to Use Postman and OpenAPI",
+    "snippet": "Reading Time: 3 minutes This is a follow-up to our recent post about Postman joining the OpenAPI Initiative (OAI).You can read the full announcement here.. At Postman, our mission is to encourage creativity by providing user-friendly tools that help people create innovative software.",
+    "url": "https://blog.postman.com/openapi-specification-postman-how-to/",
+    "domain": "blog.postman.com"
+  },
+  {
+    "name": "Band Protocol Becomes First Blockchain Project to Join ...",
+    "snippet": "OpenAPI, a non-profit foundation hosted by the Linux Foundation, confirmed to CoinDesk that Band Protocol is the first blockchain project to become a member. ...",
+    "url": "https://www.coindesk.com/band-protocol-becomes-first-blockchain-project-to-join-openapi-initiative",
+    "domain": "coindesk.com"
+  }
+]
