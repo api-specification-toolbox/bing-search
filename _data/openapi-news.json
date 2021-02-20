@@ -15,16 +15,16 @@
     "domain": "repairerdrivennews.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Assurant reinforces training and mobile technology offerings",
     "snippet": "Assurant recently rolled out enhancements within two areas its clients and dealers might want the most reinforcements — training and mobile technology. First, Assurant launched Pocket Geek Auto, a mobile app that can help dealers and clients connect with their customers.",
     "url": "https://www.autoremarketing.com/autofinjournal/assurant-reinforces-training-and-mobile-technology-offerings",
     "domain": "autoremarketing.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Vonage Joins OpenAPI Initiative",
@@ -33,7 +33,7 @@
     "domain": "marketwatch.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Horses for courses: Should operators pick their platform provider on a case-by-case basis?",
