@@ -135,17 +135,31 @@ title: My Github YAML Editor Micro Tool Base
           }
 
       </script>
-      <h3>My Github YAML Editor Micro Tool Base</h3>
-      <p>This is the editor for this micro application, and will load the yaml from _data/store.yaml if you have permission to this site, which can then be <a href="/github-micro-tool-yaml/">viewed by going back to home page</a>.</p>
-      <p>You can <a href="https://github.com/api-evangelist-tools/github-micro-tool-yaml/issues">submit a Github issue for the project</a>, or hit me up at <a href="https://twitter.com/apievangelist">@apievangelist</a> to be added to permissions for the repository, or you can fork, publish as gh-pages in your own site, and use it there.
+      <h3>News</h3>
+      <p>This is a utility to curate the automated pulling of news for use in the API Specification Toolbox.</p>
+      <p>You can <a href="https://github.com/api-evangelist-tools/github-micro-tool-yaml/issues">submit a Github issue for the project</a>, or hit me up at <a href="https://twitter.com/apievangelist">@apievangelist</a> to be added to permissions for the repository, so that you can help curate news here.
       <table width="100%" border="0" cellpadding="3" id="token">
           <tr>
-            <td align="right"><a href="https://github.com/settings/tokens" target="_blank"><strong>Github Personal Auth Token:</strong></a></td>
-            <td align="left"><input type="text" name="auth-token" id="auth-token" value="" size="50" /></td>
-            <td align="right"><input type="button" name="loadpage" value="Load Data From YAML" onclick="loadpage();" /></td>
+            <td align="right" style="border: 1px solid #FFF;" style="border: 1px solid #000;"><a href="https://github.com/settings/tokens" target="_blank"><strong>Github Personal Auth Token:</strong></a></td>
+            <td align="left" style="border: 1px solid #FFF;"><input type="text" name="auth-token" id="auth-token" value="" size="50" style="border: 1px solid #000;" /></td>
           </tr>
       </table>
-      <table width="100%" border="0" cellpadding="3" id="editor"></table>
+      <table width="100%" border="0" cellpadding="3">
+        <tr>
+          <td width="50" align="center"><strong>Keep</strong></td>
+          <td width="50" align="center"><strong>Ignore</strong></td>
+          <td><strong>News Article</strong></td>
+        </tr>
+        {% for item in site.data.openapi-news %}
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;"><input type="checkbox" name="keep"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;"><input type="checkbox" name="ignore"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href={{ item.url }}">"{{ item.name }}</a> (<a href="https://{{ item.domain }}">{{ item.domain }}</a>) - {{ item.snippet }}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
       <center><input style="display: none;" type="button" name="SaveYAML" id="SaveYAML" value="Save YAML" onclick="saveYAMLStore();" /></center>
       <p><br />Once you have a valid Github OAuth toke entered into the text box above, the page will load, and you should be able to save any changes to the underlying Github repository. Making for a completely self-contained, interactive web application, that can be used for any number of purposes.
 
