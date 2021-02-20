@@ -4,9 +4,9 @@
     "snippet": "Health Advantage Credit Union ($160 million assets; 11,726 members; Saginaw, MI) serves a very important member base: current and former healthcare workers in the state of Michigan and their families.",
     "url": "https://www.cuinsight.com/press-release/health-advantage-credit-union-selects-corelations-keystone-to-help-them-care-for-the-healthcare-workers-who-care-for-others",
     "domain": "cuinsight.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "CIECA announces new standards tied to JSON, OpenAPI",
