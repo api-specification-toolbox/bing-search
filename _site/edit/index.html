@@ -137,6 +137,15 @@
         function saveData(){
 
           var datastore = document.getElementById('datastore').value;
+
+          datastore = JSON.parse(datastore);
+          
+          $.each(datastore, function(key, value) {
+            datastore[key].keep = true;
+            datastore[key].ignore = false;
+            datastore[key].new = true;
+            });
+
           var oauthToken = Cookies.get('token');
           //console.log("oauthToken: " + oauthToken);
           var github = new Github({token: oauthToken,auth: "oauth"});
@@ -154,7 +163,7 @@
                 {
                 //console.log(writepath);
                 //console.log(datastore);
-                repo.writemanual('main',writepath, JSON.parse(datastore), 'Saving Data', sha, function(err) { console.log("err: " + err); });
+                repo.writemanual('main',writepath, unescape(encodeURIComponent(datastore)), 'Saving Data', sha, function(err) { console.log("err: " + err); });
                 alert("Saved " + writepath + "!");
                 }
               });
@@ -185,7 +194,535 @@
           <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep0" name="keep0" onclick="keep('0');"></td>
           <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep0" name="keep0" onclick="ignore('0');"></td>
           <td style="border: 1px solid #FFF; padding: 7px;">
-            <a href=">"</a> (<a href="https://"></a>) - 
+            <a href=https://www.openapis.org/">"Home - OpenAPI Initiative</a> (<a href="https://openapis.org">openapis.org</a>) - The OpenAPI Specification: a broadly adopted industry standard for describing modern APIs. READ NOW. ASC 2020 Videos. How to contribute to the OAS. Submit an issue on GitHub
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep1" name="keep1" onclick="keep('1');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep1" name="keep1" onclick="ignore('1');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://swagger.io/specification/">"OpenAPI Specification - Version 3.0.3 | Swagger</a> (<a href="https://swagger.io">swagger.io</a>) - The OpenAPI Specification defines a standard interface to RESTful APIs which allows both humans and computers to understand service capabilities without access to source code, documentation, or network traffic inspection.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep2" name="keep2" onclick="keep('2');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep2" name="keep2" onclick="ignore('2');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://en.wikipedia.org/wiki/Open_API">"Open API - Wikipedia</a> (<a href="https://en.wikipedia.org">en.wikipedia.org</a>) - An open API (often referred to as a public API) is a publicly available application programming interface that provides developers with programmatic access to a proprietary software application or web service. APIs are sets of requirements that govern how one application can communicate and interact with another. APIs can also allow developers to access certain internal functions of a program ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep3" name="keep3" onclick="keep('3');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep3" name="keep3" onclick="ignore('3');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://docs.microsoft.com/en-us/aspnet/core/web-api/Microsoft.dotnet-openapi">"Develop ASP.NET Core apps using OpenAPI | Microsoft Docs</a> (<a href="https://docs.microsoft.com">docs.microsoft.com</a>) - Adding an OpenAPI reference using any of the commands on this page adds an <OpenApiReference /> element similar to the following to the .csproj file: <OpenApiReference Include="openapi.json" /> The preceding reference is required for the app to call the generated client code.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep4" name="keep4" onclick="keep('4');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep4" name="keep4" onclick="ignore('4');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://en.wikipedia.org/wiki/OpenAPI_Specification">"OpenAPI Specification - Wikipedia</a> (<a href="https://en.wikipedia.org">en.wikipedia.org</a>) - The OpenAPI Specification, originally known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful web services. Originally part of the Swagger framework, it became a separate project in 2016, overseen by the OpenAPI Initiative, an open-source collaboration project of the Linux Foundation.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep5" name="keep5" onclick="keep('5');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep5" name="keep5" onclick="ignore('5');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://openapi.tools/">"OpenAPI.Tools</a> (<a href="https://openapi.tools">openapi.tools</a>) - It supports importing OpenAPI v2 and v3 definitions to allow an API to be thoroughly security tested. Java StackHawk HawkScan - StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep6" name="keep6" onclick="keep('6');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep6" name="keep6" onclick="ignore('6');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://github.com/OAI/OpenAPI-Specification/">"GitHub - OAI/OpenAPI-Specification: The OpenAPI ...</a> (<a href="https://github.com">github.com</a>) - The OpenAPI Specification. The OpenAPI Specification is a community-driven open specification within the OpenAPI Initiative, a Linux Foundation Collaborative Project.. The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs, which allows both humans and computers to discover and understand the capabilities of a service without ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep7" name="keep7" onclick="keep('7');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep7" name="keep7" onclick="ignore('7');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://cloud.google.com/blog/products/api-management/understanding-grpc-openapi-and-rest-and-when-to-use-them">"Understanding gRPC, OpenAPI and REST and when to use them ...</a> (<a href="https://cloud.google.com">cloud.google.com</a>) - OpenAPI calls the variables in these paths "parameters" and the combination of a path and an HTTP method is called an operation—similar terminology to RPC systems. OpenAPI's use of URL templates with parameters can be viewed as a way to express RPC-like concepts with custom mappings to HTTP. OpenAPI advantages and disadvantages
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep8" name="keep8" onclick="keep('8');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep8" name="keep8" onclick="ignore('8');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://smartbear.com/blog/what-is-the-difference-between-swagger-and-openapi/">"What Is the Difference Between Swagger and OpenAPI?</a> (<a href="https://smartbear.com">smartbear.com</a>) - The OpenAPI is the official name of the specification. The development of the specification is fostered by the OpenAPI Initiative, which involves more the 30 organizations from different areas of the tech world — including Microsoft, Google, IBM, and CapitalOne.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep9" name="keep9" onclick="keep('9');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep9" name="keep9" onclick="ignore('9');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://swagger.io/docs/specification/basic-structure/">"Basic Structure - Swagger</a> (<a href="https://swagger.io">swagger.io</a>) - The OpenAPI version defines the overall structure of an API definition – what you can document and how you document it. OpenAPI 3.0 uses semantic versioning with a three-part version number. The available versions are 3.0.0, 3.0.1, 3.0.2, and 3.0.3; they are functionally the same.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep10" name="keep10" onclick="keep('10');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep10" name="keep10" onclick="ignore('10');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://rapidapi.com/blog/api-glossary/openapi/">"What is OpenAPI? | OpenAPI Definition | API Glossary</a> (<a href="https://rapidapi.com">rapidapi.com</a>) - What is OpenAPI? As the world is moving towards service-based apps and state-of-the-art microservices, it has become vitally essential for programmers to have a standard interface definition for their RESTful APIs. This is where OpenAPI comes in handy. Also known as OpenAPI specification (OpenAPI) helps developers to simplify application development when multiple protocols, interfaces, and […]
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep11" name="keep11" onclick="keep('11');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep11" name="keep11" onclick="ignore('11');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition">"Expose your functions with OpenAPI using Azure API ...</a> (<a href="https://docs.microsoft.com">docs.microsoft.com</a>) - Download the OpenAPI definition. If your API works as expected, you can download the OpenAPI definition. Select Download OpenAPI definition at the top of the page. Save the downloaded JSON file, and then open it. Review the definition. Clean up resources. In the preceding steps, you created Azure resources in a resource group.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep12" name="keep12" onclick="keep('12');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep12" name="keep12" onclick="ignore('12');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://petstore.swagger.io/">"Swagger UI</a> (<a href="https://petstore.swagger.io">petstore.swagger.io</a>) - This is a sample server Petstore server. You can find out more about Swagger at http://swagger.io or on irc.freenode.net, #swagger.For this sample, you can use the ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep13" name="keep13" onclick="keep('13');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep13" name="keep13" onclick="ignore('13');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://github.com/Microsoft/OpenAPI.NET">"GitHub - microsoft/OpenAPI.NET: The OpenAPI.NET SDK ...</a> (<a href="https://github.com">github.com</a>) - The OpenAPI.NET SDK contains a useful object model for OpenAPI documents in .NET along with common serializers to extract raw OpenAPI JSON and YAML documents from the model.. See more information on the OpenAPI specification and its history here: OpenAPI Initiative Project Objectives. Provide a single shared object model in .NET for OpenAPI descriptions.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep14" name="keep14" onclick="keep('14');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep14" name="keep14" onclick="ignore('14');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.jetbrains.com/help/idea/openapi.html">"OpenAPI—IntelliJ IDEA</a> (<a href="https://jetbrains.com">jetbrains.com</a>) - OpenAPI. An OpenAPI Specification (OAS) is a description format for REST APIs. Swagger is a set of tools based on this specification for writing, documenting, and consuming REST APIs. For more information, see Swagger documentation.. IntelliJ IDEA provides coding assistance for OpenAPI definitions in YAML and JSON files, and integration with Swagger Codegen for generating server stubs, client ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep15" name="keep15" onclick="keep('15');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep15" name="keep15" onclick="ignore('15');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://devblogs.microsoft.com/azure-sdk/code-generation-with-autorest/">"AutoRest and OpenAPI: The backbone of Azure SDK | Azure ...</a> (<a href="https://devblogs.microsoft.com">devblogs.microsoft.com</a>) - OpenAPI is a specification language that enables one to describe a web service API in terms of its operations and the data types it understands. It was originally conceived in 2011 as a specification called Swagger to enable generation of documentation and client libraries for the REST APIs of a company called Wordnik. Over time, more companies ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep16" name="keep16" onclick="keep('16');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep16" name="keep16" onclick="ignore('16');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.openapis.org/about">"About - OpenAPI Initiative</a> (<a href="https://openapis.org">openapis.org</a>) - The OpenAPI Initiative (OAI) was created by a consortium of forward-looking industry experts who recognize the immense value of standardizing on how APIs are described. As an open governance structure under the Linux Foundation, the OAI is focused on creating, evolving and promoting a vendor neutral description format.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep17" name="keep17" onclick="keep('17');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep17" name="keep17" onclick="ignore('17');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.jetbrains.com/help/objc/openapi.html">"OpenAPI—AppCode</a> (<a href="https://jetbrains.com">jetbrains.com</a>) - OpenAPI. An OpenAPI Specification (OAS) is a description format for REST APIs. Swagger is a set of tools based on this specification for writing, documenting, and consuming REST APIs. For more information, see Swagger documentation.. AppCode provides coding assistance for OpenAPI definitions in YAML and JSON files, and integration with Swagger Codegen for generating server stubs, client ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep18" name="keep18" onclick="keep('18');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep18" name="keep18" onclick="ignore('18');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://dzone.com/articles/benefits-of-using-the-openapi-swagger-specificatio">"Benefits of Using the OpenAPI (Swagger) Specification for ...</a> (<a href="https://dzone.com">dzone.com</a>) - The OpenAPI specification was known as Swagger until version 3.0 was released in 2017, when it was renamed to OpenAPI. It’s a language agnostic way to describe a RESTful API, that can be used to ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep19" name="keep19" onclick="keep('19');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep19" name="keep19" onclick="ignore('19');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://cloud.google.com/endpoints/docs/openapi/openapi-overview">"OpenAPI overview | Cloud Endpoints with OpenAPI | Google Cloud</a> (<a href="https://cloud.google.com">cloud.google.com</a>) - OpenAPI extensions available for Endpoints APIs. Generating an OpenAPI document. Depending on what language you are using, you might be able to generate an OpenAPI document. In Java, there are open source projects for both Jersey and Spring that can generate an OpenAPI document from annotations.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep20" name="keep20" onclick="keep('20');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep20" name="keep20" onclick="ignore('20');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.drupal.org/project/openapi">"OpenAPI | Drupal.org</a> (<a href="https://drupal.org">drupal.org</a>) - This module allows you to make your RESTful webservices and JSON:API discoverable using the OpenAPI standard (A.K.A. Swagger). This can then be used by tools like Swagger UI, Swagger Code Gen, and Paw to inspect and test your web services. This module provides integration with Drupal Core's Rest API to document the entity routes, and the contributed JSON:API module.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep21" name="keep21" onclick="keep('21');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep21" name="keep21" onclick="ignore('21');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.manning.com/books/designing-apis-with-swagger-and-openapi">"Manning | Designing APIs with Swagger and OpenAPI</a> (<a href="https://manning.com">manning.com</a>) - Customer-facing and internal APIs have become the most common way to integrate the components of web-based software. Using standards like OpenAPI, you can provide reliable, easy-to-use interfaces that allow other developers safe, controlled access to your software. Designing APIs with Swagger and OpenAPI is a hands-on primer to properly designing and describing your APIs using the most widely ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep22" name="keep22" onclick="keep('22');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep22" name="keep22" onclick="ignore('22');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-open-api.html">"Working with OpenAPI definitions for HTTP APIs - Amazon ...</a> (<a href="https://docs.aws.amazon.com">docs.aws.amazon.com</a>) - A property is valid according to the OpenAPI specification, but that property isn’t supported for HTTP APIs. For example, the following OpenAPI 3.0 snippet produces info on import because HTTP APIs don't support request validation.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep23" name="keep23" onclick="keep('23');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep23" name="keep23" onclick="ignore('23');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://nordicapis.com/your-guide-to-openapi/">"Your Guide To OpenAPI | Nordic APIs</a> (<a href="https://nordicapis.com">nordicapis.com</a>) - OpenAPI is one of the most efficient ways to ensure your data is accessible for as many API consumers as possible. OpenAPI is also firmly in keeping with the original democratic, egalitarian spirit of the Internet, with its utopian vision of high-quality data and information for everybody.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep24" name="keep24" onclick="keep('24');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep24" name="keep24" onclick="ignore('24');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://nordicapis.com/asyncapi-vs-openapi-whats-the-difference/">"AsyncAPI vs OpenAPI: What's The Difference? | Nordic APIs</a> (<a href="https://nordicapis.com">nordicapis.com</a>) - OpenAPI Specification, known formerly as the Swagger, is a solution that produces machine-readable documentation for REST APIs.Initially developed in 2010, Swagger was later acquired in 2015 by SmartBear Software. As Swagger was developed and expanded, the Open API Initiative was launched to further develop and promote the Swagger toolset in an open format, supported by major industry players ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep25" name="keep25" onclick="keep('25');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep25" name="keep25" onclick="ignore('25');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://developers.redhat.com/blog/2020/09/16/using-openapi-with-net-core/">"Using OpenAPI with .NET Core - Red Hat Developer</a> (<a href="https://developers.redhat.com">developers.redhat.com</a>) - OpenAPI is a specification for describing RESTful APIs. First, I’ll show you how to use OpenAPI to describe the APIs provided by an ASP.NET Core service. Then, we’ll use the API description to generate a strongly-typed client to use the web service with C#.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep26" name="keep26" onclick="keep('26');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep26" name="keep26" onclick="ignore('26');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.davidhayden.me/blog/generate-client-for-asp-net-core-web-api-using-openapi">"Generate Client for ASP.NET Core Web API using OpenAPI</a> (<a href="https://davidhayden.me">davidhayden.me</a>) - Using the NSwag Code Generated OpenAPI Client. We're now ready to consume the ASP.NET Core 5 Web API using the client generated by NSwag based on the OpenAPI Specification Document. Shown below is a simple .NET Core 5 Console Application that calls the ASP.NET Core Web API to get the weather forecast.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep27" name="keep27" onclick="keep('27');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep27" name="keep27" onclick="ignore('27');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://techradar.softwareag.com/technology/openapi/">"OpenAPI | Software AG</a> (<a href="https://techradar.softwareag.com">techradar.softwareag.com</a>) - OpenAPI is the de facto largest industry standard for specifying RESTful APIs with a 70-80% adoption rate . Alternatives are RAML4 (RESTful API Modeling Language), GraphQL, API Blueprint, WADL (web application description language), Slate, gRPC and minor others.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep28" name="keep28" onclick="keep('28');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep28" name="keep28" onclick="ignore('28');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://medium.com/apis-and-digital-transformation/openapi-and-grpc-side-by-side-b6afb08f75ed">"OpenAPI and gRPC Side-by-Side. Spend some time working ...</a> (<a href="https://medium.com">medium.com</a>) - The biggest OpenAPI code generation project is called swagger-codegen, but there are several other code generators available including AutoRest by Microsoft, a project from Capital One called oas ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep29" name="keep29" onclick="keep('29');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep29" name="keep29" onclick="ignore('29');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://springdoc.org/">"OpenAPI 3 Library for spring-boot</a> (<a href="https://springdoc.org">springdoc.org</a>) - springdoc-openapi java library helps automating the generation of API documentation using spring boot projects. springdoc-openapi works by examining an application at runtime to infer API semantics based on spring configurations, class structure and various annotations.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep30" name="keep30" onclick="keep('30');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep30" name="keep30" onclick="ignore('30');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://openapi-generator.tech/">"Hello from OpenAPI Generator</a> (<a href="https://openapi-generator.tech">openapi-generator.tech</a>) - The OpenAPI Generator image acts as a standalone executable. It can be used as an alternative to installing via homebrew, or for developers who are unable to install Java or upgrade the installed version. To generate code from a valid petstore.yaml doc with this image, ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep31" name="keep31" onclick="keep('31');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep31" name="keep31" onclick="ignore('31');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://idratherbewriting.com/learnapidoc/pubapis_openapi_intro.html">"Introduction to the OpenAPI specification | Documenting APIs</a> (<a href="https://idratherbewriting.com">idratherbewriting.com</a>) - OpenAPI is a specification for describing REST APIs. If you’re familiar with tech comm specifications, you can think of the OpenAPI specification like the DITA specification. With DITA, there are specific XML elements used to define help components, and a required order and hierarchy to those elements. Different tools can read DITA and build out a documentation website from the elements.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep32" name="keep32" onclick="keep('32');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep32" name="keep32" onclick="ignore('32');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi">"OpenAPI (Swagger) Editor - Visual Studio Marketplace</a> (<a href="https://marketplace.visualstudio.com">marketplace.visualstudio.com</a>) - OpenAPI extension for Visual Studio Code. This Visual Studio Code (VS Code) extension adds rich support for the OpenAPI Specification (OAS) (formerly known as Swagger Specification) in JSON or YAML format. The features include, for example, SwaggerUI and ReDoc preview,IntelliSense, linting, schema enforcement, code navigation, definition links, snippets, static security analysis, and more!
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep33" name="keep33" onclick="keep('33');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep33" name="keep33" onclick="ignore('33');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://stoplight.io/blog/openapi-json-schema/">"OpenAPI and JSON Schema: When to Use Which | Stoplight API ...</a> (<a href="https://stoplight.io">stoplight.io</a>) - Behind the divergence in data formats and how you can solve it
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep34" name="keep34" onclick="keep('34');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep34" name="keep34" onclick="ignore('34');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/">"OpenAPI | Postman Learning Center</a> (<a href="https://learning.postman.com">learning.postman.com</a>) - OpenAPI. You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep35" name="keep35" onclick="keep('35');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep35" name="keep35" onclick="ignore('35');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://docs.readme.com/docs/openapi">"OpenAPI - ReadMe</a> (<a href="https://docs.readme.com">docs.readme.com</a>) - The OpenAPI Specification was developed privately for several years under the name Swagger. Back when it was known as Swagger 2.0, the specification was donated to the OpenAPI Initiative and became an open standard in 2015. Version 3.0.0 was released under the name OpenAPI Specification 3.0.0.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep36" name="keep36" onclick="keep('36');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep36" name="keep36" onclick="ignore('36');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://openapi-generator.tech/docs/installation/">"CLI Installation - openapi generator</a> (<a href="https://openapi-generator.tech">openapi-generator.tech</a>) - The OpenAPI Generator Docker image acts as a standalone executable. It can be used as an alternative to installing via homebrew, or for developers who are unable to install Java or upgrade the installed version. To generate code from a valid petstore.yaml doc with this image, you'll need to mount a local location as a volume. You'll then need ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep37" name="keep37" onclick="keep('37');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep37" name="keep37" onclick="ignore('37');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://pypi.org/project/openapi-python-client/">"openapi-python-client · PyPI</a> (<a href="https://pypi.org">pypi.org</a>) - openapi-python-client. Generate modern Python clients from OpenAPI 3.x documents. This generator does not support OpenAPI 2.x FKA Swagger. If you need to use an older document, try upgrading it to version 3 first with one of many available converters.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep38" name="keep38" onclick="keep('38');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep38" name="keep38" onclick="ignore('38');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://docs.camunda.org/manual/latest/reference/rest/openapi/">"OpenAPI | docs.camunda.org</a> (<a href="https://docs.camunda.org">docs.camunda.org</a>) - OpenAPI is a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. The OpenAPI description brings options for:
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep39" name="keep39" onclick="keep('39');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep39" name="keep39" onclick="ignore('39');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://openai.com/blog/openai-api/">"OpenAI API</a> (<a href="https://openai.com">openai.com</a>) - We’re releasing an API for accessing new AI models developed by OpenAI. Unlike most AI systems which are designed for one use-case, the API today provides a general-purpose “text in, text out” interface, allowing users to try it on virtually any English language task. You can now request access
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep40" name="keep40" onclick="keep('40');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep40" name="keep40" onclick="ignore('40');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://stoplight.io/open-source/spectral/">"Spectral - Open Source API Description Linter | Stoplight</a> (<a href="https://stoplight.io">stoplight.io</a>) - Spectral is an open source OpenAPI linter, which can tell you not just if your API descriptions are valid, but if they are any good.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep41" name="keep41" onclick="keep('41');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep41" name="keep41" onclick="ignore('41');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://pypi.org/project/openapi-schema-pydantic/">"openapi-schema-pydantic · PyPI</a> (<a href="https://pypi.org">pypi.org</a>) - OpenAPI (v3) specification schema as pydantic class. Non-pydantic schema types. Some schema types are not implemented as pydantic classes.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep42" name="keep42" onclick="keep('42');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep42" name="keep42" onclick="ignore('42');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://blog.postman.com/postman-supports-openapi-3-0/">"Postman Supports OpenAPI 3.0 - Postman Blog</a> (<a href="https://blog.postman.com">blog.postman.com</a>) - OpenAPI is a popular format because the specifications are written in JSON or YAML and are both, human and machine-readable. OpenAPI provides a standardized format which allows API developers to perform quick and simple validation, auto-generate documentation with examples for easy integration, auto-generate client libraries and tests, and more.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep43" name="keep43" onclick="keep('43');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep43" name="keep43" onclick="ignore('43');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.udemy.com/course/openapi-beginner-to-guru/">"OpenAPI for API Specifications: Go from Beginner to Guru ...</a> (<a href="https://udemy.com">udemy.com</a>) - The OpenAPI specification is the cornerstone of a thriving open source community. Simply perform a search for OpenAPI tools and you will find projects for converters, documentation, validators, editors, mock servers, testing tools and much much more! From the OpenAPI specification, you can generate client side source code for over 50 languages.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep44" name="keep44" onclick="keep('44');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep44" name="keep44" onclick="ignore('44');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://marketplace.visualstudio.com/items?itemName=mermade.openapi-lint">"openapi-lint - Visual Studio Marketplace</a> (<a href="https://marketplace.visualstudio.com">marketplace.visualstudio.com</a>) - openapi-lint README. This extension can be used to validate and lint OpenAPI 3.0.x documents, and convert between OpenAPI 2.0 and 3.0.0. It provides 11 Visual Studio Code commands: OpenAPI Validate - which fully validates your OpenAPI document against the specification; OpenAPI Lint - which additionally applies a lightly-opinionated set of best-practices
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep45" name="keep45" onclick="keep('45');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep45" name="keep45" onclick="ignore('45');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://haseebmajid.dev/blog/rest-api-openapi-flask-connexion">"Implementing a Simple REST API using OpenAPI, Flask ...</a> (<a href="https://haseebmajid.dev">haseebmajid.dev</a>) - #OpenAPI. Openapi or the Openapi Specification (OAS), defines a standard language agnostic approach to developing RESTful APIs, which are both human and machine readable. #Swagger. A set of open-source tools built around the OAS that help support development, including: Swagger Editor: Browser based editor where you can write (and view) OpenAPI ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep46" name="keep46" onclick="keep('46');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep46" name="keep46" onclick="ignore('46');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://aws.amazon.com/about-aws/whats-new/2018/09/amazon-api-gateway-adds-support-for-openapi-3-api-specification/">"Amazon API Gateway adds support for OpenAPI 3.0 API ...</a> (<a href="https://aws.amazon.com">aws.amazon.com</a>) - The OpenAPI specification is a widely adopted standard for documenting APIs. OpenAPI 3.0 is the latest version of the OpenAPI specification and offers a number of improvements over OpenAPI 2. Support for this specification will allow our customers to improve API development and better compatibility with other tools in the API ecosystem.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep47" name="keep47" onclick="keep('47');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep47" name="keep47" onclick="ignore('47');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://searchapparchitecture.techtarget.com/definition/open-API-public-API">"What is an Open API (Public API) and How Does it Work?</a> (<a href="https://searchapparchitecture.techtarget.com">searchapparchitecture.techtarget.com</a>) - open API (public API): An open API, also known as a public API, is an application programming interface that allows the owner of a network-accessible service to give universal access to consumers of that service, such as developers.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep48" name="keep48" onclick="keep('48');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep48" name="keep48" onclick="ignore('48');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://stoplight.io/openapi/">"OpenAPI | OpenAPI Definition & Online Tools | Open API ...</a> (<a href="https://stoplight.io">stoplight.io</a>) - Discussing the OpenAPI specification standard, what benefits OpenAPI provides to development, and what OpenAPI tools are available.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep49" name="keep49" onclick="keep('49');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep49" name="keep49" onclick="ignore('49');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://swagger.io/">"API Documentation & Design Tools for Teams | Swagger</a> (<a href="https://swagger.io">swagger.io</a>) - The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design. Explore OAS. Open Source Tools. Individual tools to create, update and share OpenAPI definitions with consumers. Explore Open Source Tools. SwaggerHub.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep50" name="keep50" onclick="keep('50');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep50" name="keep50" onclick="ignore('50');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://plugins.jetbrains.com/plugin/14837-openapi-swagger-editor">"OpenAPI (Swagger) Editor - Plugins | JetBrains</a> (<a href="https://plugins.jetbrains.com">plugins.jetbrains.com</a>) - Provides support for editing the OpenAPI files (formerly known as Swagger).. Features. Supports versions 2.x and 3.x of OpenAPI. Supports both YAML and JSON formats. Validation using OpenAPI JSON Schemas.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep51" name="keep51" onclick="keep('51');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep51" name="keep51" onclick="ignore('51');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://admantium.medium.com/openapi-documentation-tool-overview-92dd4060530f">"OpenAPI: Documentation Tool Overview | by Sebastian | Jan ...</a> (<a href="https://admantium.medium.com">admantium.medium.com</a>) - With OpenAPI, you provide in a declarative, JSON or YAML based format, the technical specification of an API. This documentation contains all necessary data to interact with your API, including endpoints, request parameters (query parameters or body payload) and the responses (status code, data).
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep52" name="keep52" onclick="keep('52');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep52" name="keep52" onclick="ignore('52');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.udemy.com/course/openapi-swagger-specification/">"OpenAPI (Swagger) Specification for Software Developers ...</a> (<a href="https://udemy.com">udemy.com</a>) - This practical course will help you in answering all these and achieving proficiency using the Open API (Swagger Specification) for any programming language. At The End Of This Course. You will know the structure of an OpenAPI Specification and the steps to create one from scratch. You will be able to understand any OpenAPI Specification document.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep53" name="keep53" onclick="keep('53');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep53" name="keep53" onclick="ignore('53');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.openapis.org/specification/v3implementations-form">"Share your OAS Implementations! - OpenAPI Initiative</a> (<a href="https://openapis.org">openapis.org</a>) - The OpenAPI Initiative’s Technical Developer Community is looking for feedback on how you are implementing the the OpenAPI Specification v3.. Share with us how you are using the OAS, some of the things you are excited to see updated and even the things we missed.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep54" name="keep54" onclick="keep('54');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep54" name="keep54" onclick="ignore('54');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://marketplace.visualstudio.com/items?itemName=Unchase.unchaseopenapiconnectedservice">"Unchase OpenAPI (Swagger) Connected Service - Visual ...</a> (<a href="https://marketplace.visualstudio.com">marketplace.visualstudio.com</a>) - Unchase OpenAPI (Swagger) Connected Service is a Visual Studio 2017/2019 extension to generate C# (TypeScript) HttpClient (or C# Controllers) code for OpenAPI (formerly Swagger API) web service with NSwag.. Extension now supports yaml-specifications and specification endpoints ends with not only .json!. For VisualStudio 2019: Starting from v16.1.3 extensions based on Microsoft Connected ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep55" name="keep55" onclick="keep('55');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep55" name="keep55" onclick="ignore('55');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://marketplace.atlassian.com/apps/1220001/visualize-openapi-swagger-documentation">"Visualize OpenAPI (Swagger) documentation | Atlassian ...</a> (<a href="https://marketplace.atlassian.com">marketplace.atlassian.com</a>) - Post your OpenAPI compliant documentation to the widget and get nicely generated interactive application on your page. Easy to use, popular and familiar user interface. Most developers are already familiar with it.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep56" name="keep56" onclick="keep('56');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep56" name="keep56" onclick="ignore('56');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html">"OpenAPI tutorial using Swagger Editor and Swagger UI ...</a> (<a href="https://idratherbewriting.com">idratherbewriting.com</a>) - Swagger UI is sponsored by Smartbear, the same company that is heavily invested in the OpenAPI initiative and which develops SwaggerHub (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the OpenAPI specification, as the Linux Foundation drives this initiative.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep57" name="keep57" onclick="keep('57');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep57" name="keep57" onclick="ignore('57');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://pypi.org/project/openapi/">"openapi · PyPI</a> (<a href="https://pypi.org">pypi.org</a>) - Python OpenAPI 2.0 (Swagger) object model. Download files. Download the file for your platform. If you're not sure which to choose, learn more about installing packages.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep58" name="keep58" onclick="keep('58');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep58" name="keep58" onclick="ignore('58');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://nfvwiki.etsi.org/index.php?title=SOL_OpenAPI_Representations">"SOL OpenAPI Representations - NFVwiki</a> (<a href="https://nfvwiki.etsi.org">nfvwiki.etsi.org</a>) - The OpenAPI button links to the raw text files. They will open a page in the browser with a lot of non readable text and they are meant to be downloaded or used as input for other tools; The UI button links to the graphical view of the interface using the Swagger UI tool hosted at the Forge. If you want to know more about the Swagger UI tool ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep59" name="keep59" onclick="keep('59');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep59" name="keep59" onclick="ignore('59');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://eli.thegreenplace.net/2021/rest-servers-in-go-part-4-using-openapi-and-swagger/">"REST Servers in Go: Part 4 - using OpenAPI and Swagger ...</a> (<a href="https://eli.thegreenplace.net">eli.thegreenplace.net</a>) - Swagger and OpenAPI. Swagger was initially released in 2011 as an IDL for describing REST APIs.. The original motivation for Swagger was auto-generating documentation for REST APIs, as well as trying out sample interactions with the API . The year 2014 saw the release of version 2.0, and in 2016 a bunch of large companies in the industry teamed up to create OpenAPI - a more standardized ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep60" name="keep60" onclick="keep('60');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep60" name="keep60" onclick="ignore('60');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.drupal.org/project/openapi_rest">"OpenAPI for REST | Drupal.org</a> (<a href="https://drupal.org">drupal.org</a>) - Integrates with the base Open API module to generate the definitions for core REST. If you want documentation of your core REST powered API, you need to enable this module and a documentation generator like Open API UI ReDoc. Check out the Open API project for more information about alternative UI generators. This module requires Open API 2.x or above.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep61" name="keep61" onclick="keep('61');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep61" name="keep61" onclick="ignore('61');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.nuget.org/packages/Microsoft.OpenApi/">"NuGet Gallery | Microsoft.OpenApi 1.2.3</a> (<a href="https://nuget.org">nuget.org</a>) - <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" /> For projects that support PackageReference , copy this XML node into the project file to reference the package. paket add Microsoft.OpenApi --version 1.2.3
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep62" name="keep62" onclick="keep('62');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep62" name="keep62" onclick="ignore('62');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://quarkus.io/guides/openapi-swaggerui">"Quarkus - Using OpenAPI and Swagger UI</a> (<a href="https://quarkus.io">quarkus.io</a>) - An OpenAPI document that conforms to the OpenAPI Specification is itself a valid JSON object, that can be represented in yaml or json formats. To see this in action, we’ll put OpenAPI documentation under META-INF/openapi.yaml for our /fruits endpoints.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep63" name="keep63" onclick="keep('63');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep63" name="keep63" onclick="ignore('63');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.prnewswire.com/news-releases/vonage-joins-openapi-initiative-301224280.html">"Vonage Joins OpenAPI Initiative - prnewswire.com</a> (<a href="https://prnewswire.com">prnewswire.com</a>) - The OpenAPI Initiative (OAI) was created by a consortium of forward-looking industry experts who recognize the immense value of standardizing on how APIs are described. As an open governance ...
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep64" name="keep64" onclick="keep('64');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep64" name="keep64" onclick="ignore('64');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://stoplight.io/openapi/design/">"Open API Specification, Spec & Documentation | OpenAPI ...</a> (<a href="https://stoplight.io">stoplight.io</a>) - Discussing API design, contract testing, and reference documentation using the OpenAPI specification standard.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep65" name="keep65" onclick="keep('65');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep65" name="keep65" onclick="ignore('65');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://blog.postman.com/openapi-specification-postman-how-to/">"OpenAPI Specification: How to Use Postman and OpenAPI</a> (<a href="https://blog.postman.com">blog.postman.com</a>) - Reading Time: 3 minutes This is a follow-up to our recent post about Postman joining the OpenAPI Initiative (OAI).You can read the full announcement here.. At Postman, our mission is to encourage creativity by providing user-friendly tools that help people create innovative software.
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep66" name="keep66" onclick="keep('66');"></td>
+          <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep66" name="keep66" onclick="ignore('66');"></td>
+          <td style="border: 1px solid #FFF; padding: 7px;">
+            <a href=https://www.coindesk.com/band-protocol-becomes-first-blockchain-project-to-join-openapi-initiative">"Band Protocol Becomes First Blockchain Project to Join ...</a> (<a href="https://coindesk.com">coindesk.com</a>) - OpenAPI, a non-profit foundation hosted by the Linux Foundation, confirmed to CoinDesk that Band Protocol is the first blockchain project to become a member. ...
           </td>
         </tr>
         

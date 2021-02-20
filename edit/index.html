@@ -56,6 +56,15 @@ title: My Github YAML Editor Micro Tool Base
         function saveData(){
 
           var datastore = document.getElementById('datastore').value;
+
+          datastore = JSON.parse(datastore);
+          
+          $.each(datastore, function(key, value) {
+            datastore[key].keep = true;
+            datastore[key].ignore = false;
+            datastore[key].new = true;
+            });
+
           var oauthToken = Cookies.get('token');
           //console.log("oauthToken: " + oauthToken);
           var github = new Github({token: oauthToken,auth: "oauth"});
@@ -73,7 +82,7 @@ title: My Github YAML Editor Micro Tool Base
                 {
                 //console.log(writepath);
                 //console.log(datastore);
-                repo.writemanual('main',writepath, JSON.parse(datastore), 'Saving Data', sha, function(err) { console.log("err: " + err); });
+                repo.writemanual('main',writepath, unescape(encodeURIComponent(datastore)), 'Saving Data', sha, function(err) { console.log("err: " + err); });
                 alert("Saved " + writepath + "!");
                 }
               });
