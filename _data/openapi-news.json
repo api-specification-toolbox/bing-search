@@ -220,9 +220,9 @@
     "snippet": "Globetom will contribute as both a developer on the ODA development track as well as an application provider that will test deployment and interoperability of its TM Forum Open API implementations ...",
     "url": "https://www.itweb.co.za/content/LPwQ57l6po2qNgkj",
     "domain": "itweb.co.za",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "‘Banks used virtual meets to merge fast’",
@@ -238,9 +238,9 @@
     "snippet": "Red Box's ability to support voice capture from any platform and the open-API philosophy will support built-in data integrity and data reconciliation mechanisms, enabling us to help customers catch compliance violations quickly and accurately.\"",
     "url": "https://www.destinationcrm.com/Articles/ReadArticle.aspx?ArticleID=144829",
     "domain": "destinationcrm.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Pngme, a financial data platform, closes $3M seed to accelerate growth in Sub-Saharan Africa",
