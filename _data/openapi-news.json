@@ -229,9 +229,9 @@
     "snippet": "Mumbai: The consolidation of six public sector banks could be done in record time on the back of a virtual execution, despite the Covid lockdown, said Rajashekara Maiya, VP and global head (business consulting) for ‘Finacle’ at Infosys.",
     "url": "https://www.msn.com/en-in/money/topstories/banks-used-virtual-meets-to-merge-fast/ar-BB1dDEg4?;amp;pfr=1&ref=marketbulletin-dotcom",
     "domain": "msn.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Behavox Partners with Red Box",
