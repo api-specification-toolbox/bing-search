@@ -50,7 +50,7 @@
       </style>
 
    </head>
-   <body>
+   <body onload="var token = Cookies.get('token');document.getElementById('auth-token').value = token;">
 
       <div class="page-wrapper">
 
@@ -93,8 +93,6 @@
         var file = "_data/openapi-news.json";
         var org_name = 'api-specification-toolbox';
         var repo_name = 'search';
-
-        document.getElementById('auth-token').value = Cookies.get('token');
 
         function loadpage(){
           var oauthToken = document.getElementById('auth-token').value;
@@ -183,7 +181,7 @@
       <table width="100%" border="0" cellpadding="3" id="token">
           <tr>
             <td align="right" style="border: 1px solid #FFF;" style="border: 1px solid #000;"><a href="https://github.com/settings/tokens" target="_blank"><strong>Github Personal Auth Token:</strong></a></td>
-            <td align="left" style="border: 1px solid #FFF; padding-left: 5px;"><input type="text" name="auth-token" id="auth-token" value="" size="50" onchange="loadpage(); return false;" style="border: 1px solid #000;" /></td>
+            <td align="left" style="border: 1px solid #FFF; padding-left: 5px;"><input type="text" name="auth-token" id="auth-token" value="hey" size="50" onchange="loadpage();" style="border: 1px solid #000;" /></td>
           </tr>
       </table><br>
       <table width="100%" border="0" cellpadding="3">
@@ -246,14 +244,6 @@
           
         
           
-            <tr>
-              <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep17" name="keep17" onclick="keep('17');"></td>
-              <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep17" name="keep17" onclick="ignore('17');"></td>
-              <td style="border: 1px solid #FFF; padding: 7px;">
-                <a href="http://next-generation-communications.tmcnet.com/news/2021/02/09/9304296.htm" target="_blank">Vonage Joins OpenAPI Initiative</a> (<a href="https://next-generation-communications.tmcnet.com">next-generation-communications.tmcnet.com</a>) - HOLMDEL, N.J., Feb. 9, 2021 /PRNewswire/ -- Vonage (Nasdaq: VG), a global leader in cloud communications helping businesses accelerate their digital transformation, announced today that it has joined the OpenAPI Initiative, a consortium of forward ...
-              </td>
-            </tr>
-          
           
         
           
@@ -269,24 +259,8 @@
           
         
           
-            <tr>
-              <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep22" name="keep22" onclick="keep('22');"></td>
-              <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep22" name="keep22" onclick="ignore('22');"></td>
-              <td style="border: 1px solid #FFF; padding: 7px;">
-                <a href="https://www.directionsmag.com/pressrelease/10453" target="_blank">OGC Members propose update to work of Features API Standards Working Group; public comment sought</a> (<a href="https://directionsmag.com">directionsmag.com</a>) - The new OGC APIs make use of the OpenAPI Specification (OAS) – a broadly adopted industry standard for describing modern APIs. APIs that implement OAS provide an interface that enables humans and computers to easily discover and understand the ...
-              </td>
-            </tr>
-          
           
         
-          
-            <tr>
-              <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep23" name="keep23" onclick="keep('23');"></td>
-              <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep23" name="keep23" onclick="ignore('23');"></td>
-              <td style="border: 1px solid #FFF; padding: 7px;">
-                <a href="https://www.techrepublic.com/article/91-of-enterprise-pros-experienced-an-api-security-incident-in-2020/" target="_blank">91% of enterprise pros experienced an API security incident in 2020</a> (<a href="https://techrepublic.com">techrepublic.com</a>) - Another 28% said they used the OpenAPI Generator. Due to the concerns expressed about API inventories, there was a corresponding fear of outdated and "zombie" APIs. Almost 60% cited this as a risk ...
-              </td>
-            </tr>
           
           
         
