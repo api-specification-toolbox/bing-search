@@ -157,9 +157,9 @@
     "snippet": "HOLMDEL, N.J., Feb. 9, 2021 /PRNewswire/ -- Vonage (Nasdaq: VG), a global leader in cloud communications helping businesses accelerate their digital transformation, announced today that it has joined the OpenAPI Initiative, a consortium of forward ...",
     "url": "http://next-generation-communications.tmcnet.com/news/2021/02/09/9304296.htm",
     "domain": "next-generation-communications.tmcnet.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Vonage Joins OpenAPI Initiative",
@@ -204,7 +204,7 @@
     "domain": "directionsmag.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "91% of enterprise pros experienced an API security incident in 2020",
@@ -213,7 +213,7 @@
     "domain": "techrepublic.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Globetom becomes a founding member of the TM Forum Open Digital Lab",
