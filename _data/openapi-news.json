@@ -562,18 +562,18 @@
     "snippet": "Technology Keys to Building a Disruptive Networked Business By Robert Crudup, EVP & CIO, SEI Investment Company - Introduction Industry after industry is being disrupted by new business models supported by technology platforms.",
     "url": "https://www.cioreview.com/cioviewpoint/technology-keys-to-building-a-disruptive-networked-business-nid-25519-cid-215.html",
     "domain": "cioreview.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Could Red Hat's Acquisition of API Management Technology Revolutionize Software Development Again?",
     "snippet": "Could Red Hat's Acquisition of API Management Technology Revolutionize Software Development Again? By Paul Doscher, Old Surfer Dude and CEO, Restlet - Open source is a big part of my life. So far, I've been the CEO of three open source companies.",
     "url": "https://www.cioreview.com/cxoinsight/could-red-hats-acquisition-of-api-management-technology-revolutionize-software-development-again-nid-18107-cid-104.html",
     "domain": "cioreview.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Nokia furthers Open RAN push with CPQD partnership",
@@ -582,7 +582,7 @@
     "domain": "computerweekly.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Introducing Building Transparency, An Open-Access Resource for Evaluating and Managing Embodied Carbon Across the Building Industry",
@@ -591,16 +591,16 @@
     "domain": "businesswire.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "PlayStation 5 Scalpers Aren’t Happy With Their Public Image",
     "snippet": "He continued: “so I know, for Walmart, there was an open API for their stock. Some of these bots could add a PS5 to their shopping cart, and then they could purchase it from there.”",
     "url": "https://www.forbes.com/sites/jaymcgregor/2021/02/10/playstation-5-scalpers-arent-happy-with-their-public-image/",
     "domain": "forbes.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Wi-Fi-based $39 Shelly Motion Sensor Targets Smart Home Market",
@@ -609,7 +609,7 @@
     "domain": "cepro.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "IoT is especially useful in healthcare, but interoperability remains a challenge",
@@ -618,7 +618,7 @@
     "domain": "techrepublic.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Music APIs are exactly what the industry needs – Here’s why",
@@ -627,7 +627,7 @@
     "domain": "hypebot.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Control, Simplify, Extend Digital Payments",
