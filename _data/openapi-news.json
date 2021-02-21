@@ -31,8 +31,8 @@
     "snippet": "OpenAPI is an important standard for the wider API community and is adopted by most of the API service providers that help drive the sector. As a part of its OpenAPI membership, Vonage representatives will also join the Open API Business Governance Board and Technical Steering Committee to represent the Company in the meetings that decide both the direction and the detail of the OpenAPI standard.",
     "url": "https://www.marketwatch.com/press-release/vonage-joins-openapi-initiative-2021-02-09",
     "domain": "marketwatch.com",
-    "keep": false,
-    "ignore": true,
+    "keep": true,
+    "ignore": false,
     "new": false
   },
   {
