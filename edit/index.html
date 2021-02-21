@@ -120,8 +120,9 @@ title: My Github YAML Editor Micro Tool Base
               <td style="border: 1px solid #FFF; padding: 7px;">
                 <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> (<a href="https://{{ item.domain }}">{{ item.domain }}</a>) - {{ item.snippet }}
               </td>
-            </tr>{% assign count = count | plus: 1 %}
+            </tr>
           {% endif %}
+          {% assign count = count | plus: 1 %}
         {% endfor %}
       </table>
       <br>
