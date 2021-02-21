@@ -13,8 +13,8 @@
     "snippet": "The Collision Industry Electronic Commerce Association announced Thursday it would produce a new set of of JSON- and OpenAPI-based standards supplementing the current Business",
     "url": "https://www.repairerdrivennews.com/2021/02/05/cieca-announces-new-standards-tied-to-json-openapi/",
     "domain": "repairerdrivennews.com",
-    "keep": false,
-    "ignore": true,
+    "keep": true,
+    "ignore": false,
     "new": false
   },
   {
@@ -22,8 +22,8 @@
     "snippet": "Assurant recently rolled out enhancements within two areas its clients and dealers might want the most reinforcements — training and mobile technology. First, Assurant launched Pocket Geek Auto, a mobile app that can help dealers and clients connect with their customers.",
     "url": "https://www.autoremarketing.com/autofinjournal/assurant-reinforces-training-and-mobile-technology-offerings",
     "domain": "autoremarketing.com",
-    "keep": false,
-    "ignore": true,
+    "keep": true,
+    "ignore": false,
     "new": false
   },
   {
