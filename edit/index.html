@@ -118,7 +118,7 @@ title: My Github YAML Editor Micro Tool Base
               <td width="50" align="center" style="border: 1px solid #FFF;">keep: <input type="radio" id="keep{{ count }}" name="keep{{ count }}" onclick="keep('{{ count }}');"></td>
               <td width="50" align="center" style="border: 1px solid #FFF;">ignore: <input type="radio" id="keep{{ count }}" name="keep{{ count }}" onclick="ignore('{{ count }}');"></td>
               <td style="border: 1px solid #FFF; padding: 7px;">
-                <a href={{ item.url }}">"{{ item.name }}</a> (<a href="https://{{ item.domain }}">{{ item.domain }}</a>) - {{ item.snippet }}
+                <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> (<a href="https://{{ item.domain }}">{{ item.domain }}</a>) - {{ item.snippet }}
               </td>
             </tr>{% assign count = count | plus: 1 %}
           {% endif %}
