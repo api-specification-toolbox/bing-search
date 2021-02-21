@@ -247,36 +247,36 @@
     "snippet": "Being able to aggregate mobile money transactions, bank transactions, loan data, behavioural data, process all that data into a structured format and make it available as an open API to developers ...",
     "url": "https://techcrunch.com/2021/02/11/pngme-a-financial-data-platform-closes-3m-seed-to-accelerate-growth-in-sub-saharan-africa/",
     "domain": "techcrunch.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Open API Chief Developer Evangelist",
     "snippet": "Sebastien serves as Chief Developer Evangelist for the Open API team at Mastercard where he leads the outreach to the global developer community. Puzzle solver, strategic thinker, beyond-the-horizon watcher and hands-on doer, Sebastien has technical and ...",
     "url": "https://newsroom.mastercard.com/asia-pacific/people/sebastientaveau/",
     "domain": "newsroom.mastercard.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Networking News & Reviews",
     "snippet": "DAILY VIDEO: Net neutrality has its day in court, and Azure API Management gets preview support for OpenAPI Specification v3. Dell’s latest Intel-based PowerEdge servers bring new levels of ...",
     "url": "https://www.eweek.com/networking",
     "domain": "eweek.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Carta Worldwide Expands into Japan",
     "snippet": "Carta’s modern open-API issuer platform powers innovative solutions for industry leading banks and fintech companies across Europe, North America and Asia Pacific. With this most recent launch ...",
     "url": "https://www.oaoa.com/news/business/carta-worldwide-expands-into-japan/article_8ccdd038-6f95-5e7f-a6f3-bdaeb4ab1a3c.html",
     "domain": "oaoa.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "RapidAPI Acquires Paw",
@@ -285,16 +285,16 @@
     "domain": "finsmes.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "BambooHR review",
     "snippet": "BambooHR continues to have improvements made to its set of features, with an open API option allowing you to combine the package with other HR software services where needed. There is also a ...",
     "url": "https://www.techradar.com/reviews/bamboohr",
     "domain": "techradar.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "MasterCard to Unleash Payment Innovation by Launching New Open API Developer Portal",
@@ -303,7 +303,7 @@
     "domain": "newsroom.mastercard.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Accedian Joins TM Forum Community To Accelerate Innovation and Drive Industry Change",
