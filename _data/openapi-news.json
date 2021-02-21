@@ -13,8 +13,8 @@
     "snippet": "The Collision Industry Electronic Commerce Association announced Thursday it would produce a new set of of JSON- and OpenAPI-based standards supplementing the current Business",
     "url": "https://www.repairerdrivennews.com/2021/02/05/cieca-announces-new-standards-tied-to-json-openapi/",
     "domain": "repairerdrivennews.com",
-    "keep": true,
-    "ignore": false,
+    "keep": false,
+    "ignore": true,
     "new": false
   },
   {
@@ -31,8 +31,8 @@
     "snippet": "OpenAPI is an important standard for the wider API community and is adopted by most of the API service providers that help drive the sector. As a part of its OpenAPI membership, Vonage representatives will also join the Open API Business Governance Board and Technical Steering Committee to represent the Company in the meetings that decide both the direction and the detail of the OpenAPI standard.",
     "url": "https://www.marketwatch.com/press-release/vonage-joins-openapi-initiative-2021-02-09",
     "domain": "marketwatch.com",
-    "keep": true,
-    "ignore": false,
+    "keep": false,
+    "ignore": true,
     "new": false
   },
   {
@@ -40,63 +40,63 @@
     "snippet": "As regulation passes in more new markets, are operators still better sticking to the tried and tested? Or is it time to adopt a horses for courses solution?",
     "url": "https://www.sbcnews.co.uk/features/2021/02/17/horses-for-courses-operators-pick-platform-case-by-case-basis/",
     "domain": "sbcnews.co.uk",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Open Platform (OPEN) Price Tops $0.0020 on Top Exchanges",
     "snippet": "Open Platform (CURRENCY:OPEN) traded down 3.7% against the dollar during the twenty-four hour period ending at 14:00 PM ET on February 14th. One Open Platform coin can now be purchased for approximately $0.",
     "url": "https://www.modernreaders.com/news/2021/02/14/open-platform-open-price-tops-0-0020-on-top-exchanges.html",
     "domain": "modernreaders.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Open API Banking Market",
     "snippet": "Global Open API Banking Market Report 2020 is latest research study released by HTF MI evaluating the market, highlighting opportunities, risk side analysis, and leveraged with strategic and ...",
     "url": "https://www.openpr.com/news/2241064/open-api-banking-market-to-eyewitness-massive-growth-by-2026",
     "domain": "openpr.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "SmartBear Wins 2021 DEVIES Award",
     "snippet": "SmartBear, a leading provider of software development and quality tools, is the winner of a 2021 DEVIES Award being presented during the all-virtual DeveloperWeek 2021, taking place on February 17-19,",
     "url": "https://www.businesswire.com/news/home/20210216005240/en/SmartBear-Wins-2021-DEVIES-Award",
     "domain": "businesswire.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Topic: openapi",
     "snippet": "The OpenAPI Comment Parser enables developers to document code for OpenAPI specs in a clean and simple way. The company focuses on the OpenAPI specification because it provides an open standard to ...",
     "url": "https://sdtimes.com/tag/openapi/",
     "domain": "sdtimes.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Marqeta files with SEC for IPO - Reuters",
     "snippet": "Open API card issuing and processing platform Marqeta has filed confidentially with US regulators for a proposed initial public offering, according to Reuters.",
     "url": "https://www.finextra.com/newsarticle/37497/marqeta-files-with-sec-for-ipo---reuters",
     "domain": "finextra.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "UABdigital to deploy Codebase Digibanc suite",
     "snippet": "Codebase Technologies (CBT), a leading Global Open API Banking Solution provider, and UABdigital, the Ecosystem Digital Transformation arm of the Union of Arab Banks (UAB), headquartered in Lebanon, have entered into a strategic alliance to accelerate UAB member banks’ digital transformation journeys using CBT's award-winning Digibanc suite.",
     "url": "https://www.finextra.com/pressarticle/86211/uabdigital-to-deploy-codebase-digibanc-suite",
     "domain": "finextra.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Red Hat Open API Management",
@@ -105,25 +105,25 @@
     "domain": "techrepublic.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Nokia partners with Brazil’s CPQD to develop 5G O-RAN solutions",
     "snippet": "The vendor said that the partnership will focus on 5G use cases in cooperation with Nokia’s Brazilian mobile operator customers",
     "url": "https://www.rcrwireless.com/20210215/open_ran/nokia-partners-brazil-cpqd-develop-5g-oran-solutions",
     "domain": "rcrwireless.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Revel Celebrates 10 Years as the Leading Cloud-Based POS Platform",
     "snippet": "Revel Systems, a cloud-based point of sale (POS) and complete business management platform, today announced the company's tenth anniversary, a significant mark of longevity",
     "url": "https://www.wfmz.com/news/pr_newswire/pr_newswire_food_beverages/revel-celebrates-10-years-as-the-leading-cloud-based-pos-platform/article_8387d1e8-1a28-566e-8bdf-6d42e052952d.html",
     "domain": "wfmz.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Codebase Technologies and the Union of Arab Banks (UAB) partnership spurs digitalization in MENA",
@@ -132,25 +132,25 @@
     "domain": "zawya.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "APIs have become an essential element in today’s digital economy: Edelweiss General Insurance (EGI)",
     "snippet": "The Open API Gateway system allows partners to access documentation of the open APIs, leverage code samples, easily conduct testing in staging as well as on the environment. In a constantly evolving digital economy, API is essential to continuously enable ...",
     "url": "https://www.dqindia.com/apis-have-become-an-essential-element-in-todays-digital-economy-edelweiss-general-insurance-egi/",
     "domain": "dqindia.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Codebase Technologies and PaymentComponents enable open banking and payments capabilities",
     "snippet": "Codebase Technologies is a leading Global Open API Banking solution provider, at the forefront of enabling banks and financial institutions (both Conventional and Islamic), as well as the emerging Fintech ecosystem to Demystify Digital Financial Services.",
     "url": "https://www.zawya.com/mena/en/press-releases/story/Codebase_Technologies_and_PaymentComponents_enable_open_banking_and_payments_capabilities-ZAWYA20210207142730/",
     "domain": "zawya.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Vonage Joins OpenAPI Initiative",
@@ -168,7 +168,7 @@
     "domain": "prnewswire.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Vonage joins OpenAPI Initiative",
@@ -177,25 +177,25 @@
     "domain": "telecompaper.com",
     "keep": true,
     "ignore": false,
-    "new": true
+    "new": false
   },
   {
     "name": "Maestro Asks: Is Your Current PMS Helping or Hindering Your Reopening Plans?",
     "snippet": "PRWeb/ -- 2021 is a year of disruption. Not only has the hotel business come to a screeching halt in many markets, but travelers",
     "url": "https://www.benzinga.com/pressreleases/21/02/n19671614/maestro-asks-is-your-current-pms-helping-or-hindering-your-reopening-plans",
     "domain": "benzinga.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "InterDigital develops Multi-Access Edge Computing (MEC) Sandbox for edge app developers",
     "snippet": "The February 12th webinar, “Getting Started with the ETSI MEC Sandbox,” will outline details of the MEC Sandbox and highlight MEC resources available to developers, including the MEC OpenAPI ...",
     "url": "https://www.telecompaper.com/news/interdigital-develops-multi-access-edge-computing-mec-sandbox-for-edge-app-developers--1371775",
     "domain": "telecompaper.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "OGC Members propose update to work of Features API Standards Working Group; public comment sought",
