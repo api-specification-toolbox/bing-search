@@ -4,7 +4,7 @@ layout: none
 [{% assign news = site.data.openapi-news %}{% assign news = news | sort: 'name' %}{% for entry in news %}
 {
    "name": "{{ entry.name | strip_html | replace: '"','' }}",
-   "snippet": "{{ entry.snippet | strip_html }} | replace: '"',''",
+   "snippet": "{{ entry.snippet | strip_html | replace: '"','' }}",
    "url": "{{ entry.url }}",
    "domain": {{ entry.domain }},
    "keep": "{{ entry.keep }}",
