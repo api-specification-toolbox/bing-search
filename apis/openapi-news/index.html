@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-[{% assign news = site.openapi-news %}{% assign news = news | sort: 'name' %}{% for new in news %}
+[{% assign news = site.data.openapi-news %}{% assign news = news | sort: 'name' %}{% for new in news %}
 {
    "name": "{{ extension.name | strip_html }}",
    "snippet": "{{ extension.snippet | strip_html }}",
