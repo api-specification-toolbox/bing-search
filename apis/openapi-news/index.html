@@ -6,7 +6,7 @@ layout: none
    "name": "{{ entry.name | strip_html | replace: '"','' | escape }}",
    "snippet": "{{ entry.snippet | strip_html | replace: '"','' | escape }}",
    "url": "{{ entry.url }}",
-   "domain": {{ entry.domain }},
+   "domain": "{{ entry.domain }}",
    "keep": "{{ entry.keep }}",
    "ignore": {{ entry.ignore }},
    "new": {{ entry.new }}
