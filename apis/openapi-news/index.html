@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[{% assign news = site.openapi-news %}{% assign news = news | sort: 'name' %}{% for new in news %}
+{
+   "name": "{{ extension.name | strip_html }}",
+   "snippet": "{{ extension.snippet | strip_html }}",
+   "url": "{{ extension.url }}",
+   "domain": {{ extension.domain }},
+   "keep": "{{ extension.keep }}",
+   "ignore": {{ extension.ignore }},
+   "new": {{ extension.new }}
+}{% if forloop.last == true %}{% else %},{% endif %}
+{% endfor %}]
