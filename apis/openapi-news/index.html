@@ -1,14 +1,14 @@
 ---
 layout: none
 ---
-[{% assign news = site.data.openapi-news %}{% assign news = news | sort: 'name' %}{% for new in news %}
+[{% assign news = site.data.openapi-news %}{% assign news = news | sort: 'name' %}{% for entry in news %}
 {
-   "name": "{{ extension.name | strip_html }}",
-   "snippet": "{{ extension.snippet | strip_html }}",
-   "url": "{{ extension.url }}",
-   "domain": {{ extension.domain }},
-   "keep": "{{ extension.keep }}",
-   "ignore": {{ extension.ignore }},
-   "new": {{ extension.new }}
+   "name": "{{ entry.name | strip_html }}",
+   "snippet": "{{ entry.snippet | strip_html }}",
+   "url": "{{ entry.url }}",
+   "domain": {{ entry.domain }},
+   "keep": "{{ entry.keep }}",
+   "ignore": {{ entry.ignore }},
+   "new": {{ entry.new }}
 }{% if forloop.last == true %}{% else %},{% endif %}
 {% endfor %}]
