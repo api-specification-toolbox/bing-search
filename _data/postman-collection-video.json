@@ -1,0 +1,351 @@
+[
+  {
+    "name": "OpenAPI 3.0: How to Design and Document APIs with the Latest OpenAPI Specification 3.0",
+    "snippet": "The OpenAPI Specification (OAS), based on the original Swagger 2.0 specification, has emerged as the world’s standard for defining and describing RESTful APIs. Learn more about OpenAPI 3.0 here: https://www.slideshare.net/smartbear_software/openapi-30-and-what-it-means-for-the-future-of-swagger Get started with OpenAPI 3.0 in SwaggerHub for ...",
+    "url": "https://www.youtube.com/watch?v=6kwmW_p_Tig",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/6kwmW_p_Tig?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Advantages of Using OpenAPI to design APIs",
+    "snippet": "Learn about using OAS (OpenAPI Specification) to design APIs. Use Swagger for free today: https://swagger.io/ What is the OpenAPI Specification? At the heart of the above tools is the OpenAPI Specification (formerly called the Swagger Specification). The specification creates the RESTful contract for your API, detailing all of its resources and ...",
+    "url": "https://www.youtube.com/watch?v=Fyuk50fFllM",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/Fyuk50fFllM?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Better API Design with OpenAPI (Cloud Next '18)",
+    "snippet": "OpenAPI is a vendor neutral, portable, open specification for designing, describing, and deploying APIs. It enables you to describe APIs in a manner consumable by humans and apps. Learn why OpenAPI is useful throughout the API lifecycle, from brainstorming to consumption. Event schedule b http://g.co/next18 Watch more Application Development ...",
+    "url": "https://www.youtube.com/watch?v=uBs6dfUgxcI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/uBs6dfUgxcI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "REST API and OpenAPI: It’s Not an Either/Or Question",
+    "snippet": "Learn more about REST APIs: http://ibm.biz/learn-rest-api-guide Learn more about API Management: http://ibm.biz/learn-api-mgmt-guide Continue your API Journey with API Handbook: http://ibm.biz/ibm-api-handbook Continue your SDK Journey with SDK Handbook: http://ibm.biz/ibm-sdk-handbook Check out our IBM Cloud API and SDK reference library: http ...",
+    "url": "https://www.youtube.com/watch?v=pRS9LRBgjYg",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/pRS9LRBgjYg?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "API Documentation with the OpenAPI Specification & Swagger Tools",
+    "snippet": "In this webinar, we will look at the role of the OpenAPI Specification in documenting APIs, and how teams can leverage tools like Swagger UI and SwaggerHub to streamline their API documentation workflow. We will cover: -The role of API documentation in developer experience -Advice for writing API docs developers will love -Using OAS to document ...",
+    "url": "https://www.youtube.com/watch?v=72rmm6TV4eY",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/72rmm6TV4eY?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Bringing OpenAPI to Your devOps",
+    "snippet": "A talk given by Vincenzo Chianese from Stoplight at the 2019 Austin API Summit in Austin, Texas. Until now, the OpenAPI Specification has been primarily used as design tool; a way to document and test your API before shipping. What if we could bring them to the next level to start driving some of your production software, such as an API Gateway ...",
+    "url": "https://www.youtube.com/watch?v=rAn87yHyNPE",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/rAn87yHyNPE?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI 3.0 Tutorial| Swagger Tutorial For Beginners | Design REST API Using Swagger Editor",
+    "snippet": "Open API (OpenAPI 3.0) tutorial to design and document Restful API using Swagger Editor. This swagger tutorial for beginners explains with a use-case how to design REST API with OpenAPI 3.0 specifications using Swagger Editor which is an open-source Swagger Tool for REST APIs documentation and designing. This Swagger API tutorial explains how ...",
+    "url": "https://www.youtube.com/watch?v=mViFmjcDOoA",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/mViFmjcDOoA?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "C# with CSharpFritz S2 E5 - Get Started with OpenAPI and gRPC with ASP.NET Core",
+    "snippet": "This week, Fritz walks through building OpenAPI and gRPC services using ASP.NET Core. We look at the templates, command-line tools, and the Visual Studio 2019 features that make development with these protocols a snap. Questions: 00:07:15 Will you talk about HangFire? 00:45:20 Can you disable the try out function? 00:46:26 How can I add to the ...",
+    "url": "https://www.youtube.com/watch?v=OZfWY6Rfkts",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/OZfWY6Rfkts?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Document APIs with open source OpenAPI Comment Parser",
+    "snippet": "Learn more in this blog post: https://ibm.biz/BdqAMa In this video, Nicholas Bourdakos walk viewers through a demo video showing how to use the new OpenAPI Comment Parser to add documentation around APIs related to a Node.js application. Try the tool here: https://github.com/bee-travels/openapi-comment-parser Build Smart. Build secure. Join a ...",
+    "url": "https://www.youtube.com/watch?v=-Z9Zn8RHf0c",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/-Z9Zn8RHf0c?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Getting Tweets for OpenAPI's GPT-3 Text Generator with Python",
+    "snippet": "In this tutorial, I show you how to get Tweets from the Twitter API for build a OpenAPI GPT-3 dataset. We will put the raw text into the OpenAPI GPT-3 playground. Written tutorial: https://keithweaver.ca/lessons/auto-tweeting-with-open-ai-gpt3-python/?s=ytktc",
+    "url": "https://www.youtube.com/watch?v=eLE95ZVW0CQ",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/eLE95ZVW0CQ?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Open APIs Wide Open",
+    "snippet": "David Biesack, Apiture The OpenAPI specification is open — really open. From the beginning, the specification allowed specification extensions (properties prefixed by \"x-\" ) just about anywhere. This feature adds extensibility, yes, but also great power. At Apiture, we embrace the API First design process and use specification extensions to ...",
+    "url": "https://www.youtube.com/watch?v=LrdkJQE4hco",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/LrdkJQE4hco?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Implement serverless APIs with Azure Functions and Azure API Management | Azure Friday",
+    "snippet": "Jeff Hollan joins Scott Hanselman to show how you can quickly deploy and manage your Serverless API's using OpenAPI and API Management. 0:00 b",
+    "url": "https://www.youtube.com/watch?v=4fPRxveXGXw",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/4fPRxveXGXw?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Automating API Testing Using OpenAPI And Schemathesis",
+    "snippet": "In this segment, we will show you how to use your OpenAPI Specification and a tool called Schemathesis (https://pypi.org/project/schemathesis/) to verify that your API implementation is in compliance with your contact without writing any testing code.",
+    "url": "https://www.youtube.com/watch?v=4r7OC-lBKMg",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/4r7OC-lBKMg?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Adopting an API First Approach with OpenAPI 3.0",
+    "snippet": "This brings new opportunities for ambitious and creative individuals and organizations to thrive, but also brings about its own, unique set of challenges, especially in an era with multiple platforms and distribution channels for new applications and products. Learn how to build even better APIs with our free webinar here: http://www2.smartbear ...",
+    "url": "https://www.youtube.com/watch?v=yuW2CKoSPbA",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/yuW2CKoSPbA?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "GOTO 2019 • Introduction to OpenAPI • Lorna Jane Mitchell",
+    "snippet": "This presentation was recorded at GOTO Copenhagen 2019. #GOTOcon #GOTOcph http://gotocph.com Lorna Jane Mitchell - Developer Advocate at Nexmo Developer ABSTRACT Open API Specification is a machine and human readable way to describe APIs. From these specs we can generate documentation, create libraries, and ensure that our users know exactly ...",
+    "url": "https://www.youtube.com/watch?v=s9u3mXQZbXI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/s9u3mXQZbXI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Creating a PHP-Slim server using OpenAPI",
+    "snippet": "We use the OpenAPI generator to create a stub server implementation of PHP-Slim. Then we implement the different endpoints using an SQLite backend and talk about the challenges using the database and handle CORS. English version of the book: https://gumroad.com/a/377861235/Ihhuo Other translations: https://gumroad.com/a/377861235 Please follow ...",
+    "url": "https://www.youtube.com/watch?v=5cJtbIrsYkg",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/5cJtbIrsYkg?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "What is OpenAPI?",
+    "snippet": "This is a question that is being answered as part of a wider effort to build awareness around the OpenAPI specification.",
+    "url": "https://www.youtube.com/watch?v=InE6Odx--xo",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/InE6Odx--xo?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Using OpenAPI to Maximise Your Pulp 3 Experience",
+    "snippet": "by Dennis Kliban At: FOSDEM 2020 https://video.fosdem.org/2020/UD2.120/openapi.webm Pulp (https://pulpproject.org) enables users to organize and distribute software. Now that Pulp 3.0 is generally available, it’s time to integrate it into your software delivery workflows. While the REST API is the primary integration point, it is the OpenAPI ...",
+    "url": "https://www.youtube.com/watch?v=SiZmCEOVgf0",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/SiZmCEOVgf0?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Transforming Your API Testing Experience with the OpenAPI Specification",
+    "snippet": "In this session, we discuss all things related to testing your OpenAPI spec. We hit an endpoint to create documentation, pull our API into SwaggerHub to collaborate on development, virtualize our API with ServiceV Pro, and functionally test it in SoapUI Pro. Learn more at https://smartbear.com/resources/webinars/transforming-api-testing-openapi/",
+    "url": "https://www.youtube.com/watch?v=qgxmYmJQ1d0",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/qgxmYmJQ1d0?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Airlock API Security with OpenAPI",
+    "snippet": "This video presents the new API Security feature in Airlock with OpenAPI. With this feature, it is possible to validate REST calls upfront. Overview over new features in Airlock: https://www.airlock.com/en/secure-access-hub/components/web-application-firewall-waf/airlock-waf-71 For more information please contact info@airlock.com Airlock ...",
+    "url": "https://www.youtube.com/watch?v=jwe--NBNruk",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/jwe--NBNruk?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Test APIs and Generate OpenAPI 3.0 Documentation in Swagger Inspector",
+    "snippet": "Join Shannon as she gives a tutorial of what you can do in Swagger Inspector. Swagger Inspector comes with new support for OpenAPI 3.0. Use Swagger Inspector today: https://swagger.io/swagger-inspector The Swagger tools reinvented the way APIs are designed and built. But as the landscape changes, and developers are expected to improve quality ...",
+    "url": "https://www.youtube.com/watch?v=0UKeLpJLDfg",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/0UKeLpJLDfg?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI 3.0, And What it Means for the Future of Swagger",
+    "snippet": "This webinar: OpenAPI 3.0, And What it Means for the Future of Swagger, provides an in-depth look at the new OpenAPI 3.0 (OAS3.0) specification. Try Swagger today: https://swaggerhub.com/ We will also preview some of the exciting work being done in the Swagger communities, and on the SwaggerHub platform. The webinar is presented by Ole Lensmar ...",
+    "url": "https://www.youtube.com/watch?v=wBDSR0x3GZo",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/wBDSR0x3GZo?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "How to Add OpenAPI Swagger Documentation to your Spring REST API Project",
+    "snippet": "Swagger is now deprecated but they left a legacy in the system which is the OpenAPI standard. In this video, we will create a Spring REST API project which will be documented using OpenAPI. -- Paid Gig -- I'm currently offering paid consultation and development gigs to help with your application development. Follow this link for more details ...",
+    "url": "https://www.youtube.com/watch?v=lGwwwd604f0",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/lGwwwd604f0?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Uncovering Swagger/OpenAPI. Kevin Dockx .NET Fest 2019",
+    "snippet": "The talk from .NET Fest conference in Kyiv, Ukraine. Presentation: http://bit.ly/2NkMDcs Fb: https://www.facebook.com/dotNETFest/ Website: http://dotnetfest.com/ If you've ever had to document an API, chances are you've used Swagger (OpenAPI) for it. But what IS that, exactly? In this session we'll dive underneath the covers of OpenAPI. We'll ...",
+    "url": "https://www.youtube.com/watch?v=gVtfK1fyDro",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/gVtfK1fyDro?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI Definition Driven API Development using Swagger",
+    "snippet": "Join SmartBear to learn about definition driven API development in this tutorial webinar. Learn more about OAS and Swagger here: https://swagger.io/blog/webinar-oas-and-swagger-help-teams-streamline-api-development/ 2:31 Understanding Definition Driven Development 14:14 Advantages of Definition Driven Development 38:19 Live Demo Using Swagger ...",
+    "url": "https://www.youtube.com/watch?v=gQY_p2birpo",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/gQY_p2birpo?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Most Basic OpenAPI Contract",
+    "snippet": "When you look at OpenAPI specifications, and especially things like the petstore example, it seems a little overwhelming whehter you'll be able to write a document. Here's a starting place openapi: 3.0.0 info: title: This is the Title version: \\\"1.0\\\" paths: /collections: get: responses: '200': # status code description: \\\"Some text about ...",
+    "url": "https://www.youtube.com/watch?v=D_xN44l1L0g",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/D_xN44l1L0g?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI CodeGen for SDKs | Developer Drop-in",
+    "snippet": "This week Lorna shows us how the OpenAPI descriptions that power our documentation also form the basis of the new Go SDK. Using the API description as a basis, and the OpenAPI code generator tool, see her extend the existing Go SDK to support an additional API, based on the generated code but adding a more humane interface for users.",
+    "url": "https://www.youtube.com/watch?v=i6B_k3PJzBQ",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/i6B_k3PJzBQ?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "26 OpenApi (Swagger) Implementation Spring Boot REST API",
+    "snippet": "OpenApi 3.0 (Swagger) Implementation + Spring Boot + REST API",
+    "url": "https://www.youtube.com/watch?v=9F9ir69j1cM",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/9F9ir69j1cM?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Class 4: Open APIs & Marketing Channels",
+    "snippet": "MIT 15.S08 FinTech: Shaping the Financial World, Spring 2020 Instructor: Prof. Gary Gensler View the complete course: https://ocw.mit.edu/15-S08S20 YouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61Q_RVDn6srWbLV_zFnd9n0 In this video, Prof. Gensler leads a discussion on Application Program Interfaces (APIs) and explains open ...",
+    "url": "https://www.youtube.com/watch?v=LaP0Ut84GzI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/LaP0Ut84GzI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Bringing together OpenAPI 3 and Spring Boot by Badr Nasslahsen @ Spring I/O Bridge",
+    "snippet": "Spring I/O Bridge (online conference) - 15 May 2020 GitHub repo: https://github.com/springdoc/springdoc-openapi-demos.git Since July 2017, there are a lot of industries adopting OpenAPI 3 specification to discover and understand the capabilities of a REST API without the need to have access to source code. springdoc-openapi project, accelerates ...",
+    "url": "https://www.youtube.com/watch?v=utRxyPfFlDw",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/utRxyPfFlDw?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Eclipse MicroProfile OpenAPI | vECM",
+    "snippet": "Using OpenAPI Specification (formally known as Swagger) is a way to describe REST endpoints. It is a standardised, machine-readable, and programming language-agnostic format that is defined in an open-source project hosted at the Linux Foundation. There are many benefits of using OpenAPI instead of a custom format to describe an API: * Having a ...",
+    "url": "https://www.youtube.com/watch?v=txGFlVK8YzI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"http://www.youtube.com/embed/txGFlVK8YzI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "42Crunch OpenAPI (Swagger) Extension for VS Code",
+    "snippet": "Our previous tutorial used the build-in Security Editor in 42Crunch API Security Platform to fix audit issues in the OpenAPI (formerly Swagger) definition. In this one, we do the same thing but in Microsoft Visual Studio Code (VS Code) using the 42Crunch OpenAPI extension. 🔴 Subscribe for more 42Crunch Platform tutorials and webinars on API ...",
+    "url": "https://www.youtube.com/watch?v=l1xGizwJRdw",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/l1xGizwJRdw?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Tekla Open API: Creating your first Hello World application",
+    "snippet": "Watch the video to learn how to create your first \\\"Hello World\\\" application with Tekla Open API and run it in Tekla Structures. First you will set up your Microsoft Visual Studio project and install Tekla Open API packages. After adding the directive lines you will start writing the code for the application. After watching the video you will ...",
+    "url": "https://www.youtube.com/watch?v=z94cw6lS3cI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/z94cw6lS3cI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "API Gateway using OpenAPI",
+    "snippet": "API Gateway using OpenAPI",
+    "url": "https://www.youtube.com/watch?v=g5fRuEYoONM",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/g5fRuEYoONM?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "API Security for Open Banking UK API Standard, WSO2 Webinar",
+    "snippet": "API Security is an important aspect of Open Banking. Accessing financial information should be done securely, by complying to the FAPI Read/Write specification which is extended from the Oauth 2.0 framework. This webinar will discuss the following topics related to API security for the Open Banking UK API standard. * The Open Banking Security ...",
+    "url": "https://www.youtube.com/watch?v=kg73LpYCJ2o",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/kg73LpYCJ2o?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Migrating to OpenAPI 3.0: How to Convert Your Existing APIs with Swagger Tools",
+    "snippet": "How can you get the most out of the OpenAPI 3.0 specification for your existing APIs? Join this webinar to learn more. Try SwaggerHub for free today: https://app.swaggerhub.com/signup?channel=direct\\u0026_ga=2.2727920.1135941336.1527786562-1434171227.1520370858 The OpenAPI Specification specifies the rules and syntax required to describe the ...",
+    "url": "https://www.youtube.com/watch?v=9IJKQypBAYY",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/9IJKQypBAYY?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI Apps in CA Performance Management",
+    "snippet": "The video demonstrates how to download, deploy, and add OpenAPI apps to a CA Performance Management context page.",
+    "url": "https://www.youtube.com/watch?v=RI5fXhKDWqc",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/RI5fXhKDWqc?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "APIs and Open Banking",
+    "snippet": "Fuelled by PSD2 regulation and industry pressure, banks are undergoing massive change when it comes to customer data. In this LiveCast we will ignite discussion with key community members on the subject of open banking. We first welcome Gunnar Berger from Nordea to explore how banks with strong developer programs are securing success in this ...",
+    "url": "https://www.youtube.com/watch?v=yzlk1U43gGI",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/yzlk1U43gGI?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "S/4HANA APIs and Open Connectors - Using the Google Drive API",
+    "snippet": "In this video series, we will expand on the Working with S/4HANA Cloud APIs series by extending our Planned Orders SAPUI5 application to include an export function to save a file to a Google Drive using the SAP Open Connectors service from SAP Cloud Platform. The SCP Open Connectors service simplifies and accelerates connectivity to third-party ...",
+    "url": "https://www.youtube.com/watch?v=4dDHaBk5Up8",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/4dDHaBk5Up8?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "MicroProfile OpenAPI with Swagger UI",
+    "snippet": "Adding Swagger UI to a JAX-RS / MicroProfile endpoint The microservice was deployed with http://wad.sh to http://payara.fish (full). See you at: http://workshops.adam-bien.com",
+    "url": "https://www.youtube.com/watch?v=OC0kuFRyEUQ",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/OC0kuFRyEUQ?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OPEN APIs are key, but not the total solution",
+    "snippet": "In this interview, Ihab Mahna, solution architect with EXFO and Guy Lupo, head of networks as a service at Telstra, discuss the merits of test orchestration and monitoring troubleshooting where Open APIs are key. Lupo highlights that standardization is key to the scale of the entire telecoms industry. Replication of processes for testing ...",
+    "url": "https://www.youtube.com/watch?v=RBQHMVn9Mk8",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/RBQHMVn9Mk8?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "OpenAPI and Swagger",
+    "snippet": "This is a presentation I gave to the STC San Diego chapter. (If you want the version that has picture-in-picture with me in the corner, see https://www.youtube.com/watch?v=Ysw2dMPOKbo.) OpenAPI is a specification for describing REST APIs. As an analogy, you can think of the OpenAPI specification like the specification for DITA. With DITA, there ...",
+    "url": "https://www.youtube.com/watch?v=gcDSL-8pkvU",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/gcDSL-8pkvU?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Tekla Developer Center for Tekla Open API",
+    "snippet": "Tekla Developer Center is the hub for all Tekla Open API information. In this video, developers from Sweco Finland tell about how they utilize Tekla Open API in their daily work. Visit https://developer.tekla.com to learn more!",
+    "url": "https://www.youtube.com/watch?v=RM5Utd7Uq5A",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/RM5Utd7Uq5A?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Functions OpenAPI Tutorial",
+    "snippet": "This video walks you through our tutorial for getting stared with an OpenAPI definition in Azure Functions. https://docs.microsoft.com/en-us/azure/azure-functions/functions-api-definition-getting-started",
+    "url": "https://www.youtube.com/watch?v=yxO4Pr4URo8",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/yxO4Pr4URo8?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "All eBay RESTful APIs leverage OpenAPI Specification",
+    "snippet": "All eBay RESTful APIs leverage OpenAPI Specification (OAS) to describe the API contracts. In addition to acting as a Rosetta Stone in the API world, the OAS helps to improve developer efficiency and productivity. The following video demonstrates how OpenAPI-based contracts can speed API integrations.",
+    "url": "https://www.youtube.com/watch?v=E-Ucnf1LBlo",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/E-Ucnf1LBlo?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "How to Generate OpenAPI Specification, API Client and Server Stub with Swagger",
+    "snippet": "How to Generate OpenAPI Specification, API Client and Server Stub with Swagger",
+    "url": "https://www.youtube.com/watch?v=b-tpSKQxSYA",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/b-tpSKQxSYA?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Building APIs with Swagger and the OpenAPI Specification",
+    "url": "https://www.lynda.com/REST-tutorials/Building-APIs-Swagger-OpenAPI-Specification/5019839-2.html",
+    "embed": "<iframe width='560' height='315' src='https://www.lynda.com/player/embed/2215893?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-2215893' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true' frameborder='0'></iframe>",
+    "domain": "lynda.com"
+  },
+  {
+    "name": "Open APIs - The Future of Banking and Finance",
+    "snippet": "In the world of finance, Open API stands for a technological revolution. This SFTI video shows how it works and gives you a taste of the future of banking and finance in Switzerland.",
+    "url": "https://www.youtube.com/watch?v=pJ2dl14mAx0",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/pJ2dl14mAx0?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Open-Api REST API Course Updates",
+    "snippet": "Build a REST-API: https://codingwithmitch.com/courses/build-a-rest-api/ In this video I make some updates to the django rest-api course. If you're planning on watching the \\\"Powerful Android Apps with Jetpack Architecture\\\" course, and you want to use your own server, YOU NEED TO WATCH THIS VIDEO! Gists from the video: ObtainAuthTokenView ...",
+    "url": "https://www.youtube.com/watch?v=JFJXckWoy00",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/JFJXckWoy00?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  },
+  {
+    "name": "Open APIs - Google Cloud Platform Fundamentals: Core Infrastructure #10",
+    "snippet": "This video is part of an online course, Google Cloud Platform Fundamentals: Core Infrastructure, from Google Cloud. Enroll today at https://www.coursera.org/learn/gcp-fundamentals?utm_source=yt\\u0026utm_medium=social\\u0026utm_campaign=channel\\u0026utm_content=googlecloud to get access to the full course. About this course: This course ...",
+    "url": "https://www.youtube.com/watch?v=x-qBEu5UzsE",
+    "embed": "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/x-qBEu5UzsE?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>",
+    "domain": "youtube.com"
+  }
+]
