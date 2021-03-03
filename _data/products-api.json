@@ -544,5 +544,137 @@
     "snippet": "3.0.1 release of swagger-codegen with OpenAPI 3 support. Supported V3 generators dynamic-html html html2 java jaxrs-cxf-client jaxrs-cxf inflector jaxrs-cxf-cdi jaxrs-spec jaxrs-jersey jaxrs-di ja...",
     "url": "https://github.com/swagger-api/swagger-codegen/releases/tag/v3.0.1",
     "domain": "github.com"
+  },
+  {
+    "name": "What is OpenAPI 3.0? | Swagger Blog",
+    "snippet": "The latest version of the OpenAPI Specification, OpenAPI 3.0 (OAS 3.0), was released last year and is already gaining adoption from API developers and organizations looking to standardize on OAS. OAS 3.0 was the first major release since the specification was donated to the OpenAPI Initiative, and renamed from the Swagger Specification to OpenAPI Specification in 2015.",
+    "url": "https://swagger.io/blog/news/whats-new-in-openapi-3-0/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "OpenAPI-Specification/3.0.md at ...",
+    "snippet": "The patch version will not be considered by tooling, making no distinction between 3.0.0 and 3.0.1. In subsequent versions of the OpenAPI Specification, care will be given such that increments of the minor version SHOULD NOT interfere with operations of tooling developed to a lower minor version.",
+    "url": "https://github.com/OAI/OpenAPI-Specification/blob/d232e6d3e1ea4038a533329a82876ae868e9cf13/versions/3.0.md",
+    "domain": "github.com"
+  },
+  {
+    "name": "Postman Supports OpenAPI 3.0 - Postman Blog",
+    "snippet": "Reading Time: 2 minutes The wait is over! With our most recent release, Postman now supports importing OpenAPI 3.0 specifications.Support for the OpenAPI specification has been a long time coming and we’re excited to provide more flexibility across formats to Postman; as well as integrate even more seamlessly into the API development workflow. OpenAPI support is available to all Postman ...",
+    "url": "https://blog.postman.com/postman-supports-openapi-3-0/",
+    "domain": "blog.postman.com"
+  },
+  {
+    "name": "Basic Structure - Swagger",
+    "snippet": "openapi: 3.0.0. The OpenAPI version defines the overall structure of an API definition – what you can document and how you document it. OpenAPI 3.0 uses semantic versioning with a three-part version number. The available versions are 3.0.0, 3.0.1, 3.0.2, and 3.0.3; they are functionally the same.",
+    "url": "https://swagger.io/docs/specification/basic-structure/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "swagger - How to validate openapi 3.0.0 yaml spec? - Stack ...",
+    "snippet": "I have a yaml specification that has been updated from swagger 2.0 to openapi 3.0.0. The file itself is about 7,000 lines so it is challenging to validate by hand. I need to figure out which tags I have are no longer compatible with openapi 3.0.0.",
+    "url": "https://stackoverflow.com/questions/60216133/how-to-validate-openapi-3-0-0-yaml-spec",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "swagger - OpenAPI 3.0: authorization header didn't exist ...",
+    "snippet": "I am converting from Swagger 2 to OpenAPI 3. In Swagger 2 code works fine but in OpenAPI 3 it does not generate authorization header in the curl request. Swagger 2.0 code which generates the correct",
+    "url": "https://stackoverflow.com/questions/62176801/openapi-3-0-authorization-header-didnt-exist-in-requests",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "swagger - How to convert OpenAPI 2.0 to OpenAPI 3.0 ...",
+    "snippet": "Can also convert OpenAPI 2.0 and Swagger 1.x definitions to OpenAPI 3.0. Swagger Codegen has a CLI version, Maven plugin, Docker images. Here's an example using the command-line version (you can download the latest JAR from Maven Central). Write the entire command on one line. Use openapi-yaml to get YAML or openapi to get JSON.",
+    "url": "https://stackoverflow.com/questions/59749513/how-to-convert-openapi-2-0-to-openapi-3-0",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "Manage your APIs: From LoopBack to IBM API Connect",
+    "snippet": "OpenAPI 3.0 support in LoopBack. The @loopback/openapi-v3 package added the OASEnhancer interface to support OpenAPI extensions and converts the controllers’ metadata into OpenAPIv3 spec. Hence, the generated OpenAPI spec from a LoopBack application, in JSON or YAML format, can be enhanced with additional specifications, such as spec ...",
+    "url": "https://developer.ibm.com/components/loopback/articles/manage-your-apis-from-loopback-to-ibm-api-connect/",
+    "domain": "developer.ibm.com"
+  },
+  {
+    "name": "java - Discriminator in OpenApi 3.0.2 polymorphism - Stack ...",
+    "snippet": "Trying to use OpenApi 3.0.2 to implement polymorphism. Type1: type: object required: - dn - typeOfType properties: dn: description: Description type: string typeOfTyp...",
+    "url": "https://stackoverflow.com/questions/53882465/discriminator-in-openapi-3-0-2-polymorphism",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "GitHub - asyncapi/openapi-schema-parser: An AsyncAPI ...",
+    "snippet": "An AsyncAPI schema parser for OpenAPI 3.0.x and Swagger 2.x schemas. - asyncapi/openapi-schema-parser. ... We use optional third-party analytics cookies to understand how you use GitHub.com so we can build better products. You can always update your selection by clicking Cookie Preferences at the bottom of the page. ...",
+    "url": "https://github.com/asyncapi/openapi-schema-parser",
+    "domain": "github.com"
+  },
+  {
+    "name": "[FAQ] Migrating to OAS 3.0 | Swagger Blog",
+    "snippet": "Since the release of the new OpenAPI Specification last July, we have gotten a lot of questions about how to easily convert existing APIs to the latest version of the specification, OpenAPI Specification 3.0 (OAS 3.0).. Last week, we hosted a free training: Migrating to OpenAPI 3.0: How to Convert Your Existing APIs with Swagger Tools. During the webinar, we covered the new features and ...",
+    "url": "https://swagger.io/blog/api-strategy/faq-migrating-to-oas-3-0/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "Swagger 3.0 Release Approaching – The New Stack",
+    "snippet": "The Swagger 3.0 team is currently aiming to have their tools updated to support the OpenAPI 3.0 specification within the next few months. Within that update will be the expanded ability to describe more complicated APIs and the ability to describe out of band requests. This is also the first major release of the OpenAPI specification as its own entity, aside from the Swagger toolchain.",
+    "url": "https://thenewstack.io/swagger-3-0-release-approaching/",
+    "domain": "thenewstack.io"
+  },
+  {
+    "name": "ASP.NET Core web API documentation with Swagger / OpenAPI ...",
+    "snippet": "OpenApi vs. Swagger. The Swagger project was donated to the OpenAPI Initiative in 2015 and has since been referred to as OpenAPI. Both names are used interchangeably. However, \"OpenAPI\" refers to the specification. \"Swagger\" refers to the family of open-source and commercial products from SmartBear that work with the OpenAPI Specification.",
+    "url": "https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger",
+    "domain": "docs.microsoft.com"
+  },
+  {
+    "name": "NetSuite Expands Integration Capabilities with new REST ...",
+    "snippet": "Metadata can be returned either as JSON Schema, or via OpenAPI 3.0 (Swagger) format. CRUD Operations – Create, Read, Update and Delete operations are now supported on records, sublists and subrecords within the parent record, and developers can make use of internal and external IDs to identify and reference these records.",
+    "url": "https://www.netsuite.com/blog/netsuite-expands-integration-capabilities-with-new-rest-web-services",
+    "domain": "netsuite.com"
+  },
+  {
+    "name": "OpenAPI 3 support - Apigee Community",
+    "snippet": "From this support question I got the impression that Apigee Edge should have support for OpenAPI 3.0 by now, but uploading the petstore example through my trial account to create a reverse proxy I get the following error: \"Unable to identify the Swagger version or the Swagger version is unsupported\".When can we expect OpenAPI 3.0 support in Apigee Edge.",
+    "url": "https://community.apigee.com/questions/62704/openapi-3-support.html",
+    "domain": "community.apigee.com"
+  },
+  {
+    "name": "Instantly Generate OpenAPI 3.0 Definitions with Swagger ...",
+    "snippet": "SOMERVILLE, Mass. — May 16, 2018 — SmartBear, the leader in software quality tools for teams, announced OpenAPI Specification 3.0 support in Swagger Inspector.This allows individuals and teams to use a single tool to test their existing APIs and instantly generate OpenAPI 3.0 definitions, which makes it fast and easy to reap the benefits of standardizing on the OpenAPI Specification.",
+    "url": "https://smartbear.com/news/news-releases/instantly-generate-openapi-3-0-definitions/",
+    "domain": "smartbear.com"
+  },
+  {
+    "name": "Serverless Openapi Documentation",
+    "snippet": "Serverless OpenAPI Documentation Plugin. Generates OpenAPI 3.0.0 documentation from serverless configuration files. OpenAPI is formerly known as Swagger. The configuration is inspired by the format used in serverless-aws-documentation.. Works well with Lincoln OpenAPI Renderer.",
+    "url": "https://www.serverless.com/plugins/serverless-openapi-documentation",
+    "domain": "serverless.com"
+  },
+  {
+    "name": "A list of awesome projects related to OpenAPI 3.0.x.",
+    "snippet": "😎 A list of awesome projects related to OpenAPI 3.0.x, curated by the community - APIs-guru/awesome-openapi3",
+    "url": "https://github.com/APIs-guru/awesome-openapi3",
+    "domain": "github.com"
+  },
+  {
+    "name": "Apitive - www.apitive.com",
+    "snippet": "Unrivalled Apitive Studio that’s purpose built for creating \"API products\" Give more power to your product managers. Facilitate your API product managers; provide them the stage to design API products and manage API Lifecycle ... Download your OpenAPI 2.0/3.0 Specifications and deploy it in any Management platform. Talk to us if you need to ...",
+    "url": "https://www.apitive.com/",
+    "domain": "apitive.com"
+  },
+  {
+    "name": "OpenAPI Specification 3.1.0 now available - SD Times",
+    "snippet": "The OpenAPI Initiative has announced the release of the OpenAPI Specification 3.1.0. The OpenAPI Specification is an industry standard for describing APIs that allows developers and computers to ...",
+    "url": "https://sdtimes.com/api/openapi-specification-3-1-0-now-available/",
+    "domain": "sdtimes.com"
+  },
+  {
+    "name": "Redoc specification extensions · Redocly",
+    "snippet": "In OAS 3.0 or 2.0 please use x-webhooks (because webhooks is not allowed with the extension namespace prefix). This makes it possible to document webhooks the same way you document APIs and provides quick path to compatibility with OAS 3.1 (remove the x-prefix). From the specification...",
+    "url": "https://redoc.ly/docs/api-reference-docs/vendor-extensions/redoc-supported-extensions/",
+    "domain": "redoc.ly"
+  },
+  {
+    "name": "BriteAPI schema and conceptual flow - BriteCore Help",
+    "snippet": "Asynchronous APIs are defined using the AsyncAPI 2.0.0 specification. This file is analogous to the OpenAPI specification. Synchronous APIs products use OpenAPI 3.0 for planning, documenting, and exposing their API. Conceptual flow for consuming APIs Base URL JSON:API types JSON:API types are lowercase, singular, and hyphenated. Best Practice: “type”: “policy” Best Practice: “type ...",
+    "url": "https://help.britecore.com/briteapis-schema-and-conceptual-flow/",
+    "domain": "help.britecore.com"
   }
 ]
