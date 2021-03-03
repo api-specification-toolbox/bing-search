@@ -310,5 +310,239 @@
     "snippet": "You can now generate function apps by importing an OpenAPI specification via the Azure Functions VS Code extension or command line. This new capability automatically generates all the necessary functions for your API, preconfigured based on the OpenAPI specification. Once generated, you add the business logic to each function/route as necessary.",
     "url": "https://azure.microsoft.com/en-us/updates/generate-a-new-function-app-from-an-openapi-specification/",
     "domain": "azure.microsoft.com"
+  },
+  {
+    "name": "The OAI Announces the OpenAPI Specification 3.0.0",
+    "snippet": "The OAI Announces the OpenAPI Specification 3.0.0 With 4x membership increase in last 18 months, Open API reaches critical mass in face of government, healthcare policies on APIs",
+    "url": "https://www.prnewswire.com/news-releases/the-oai-announces-the-openapi-specification-300-300494372.html",
+    "domain": "prnewswire.com"
+  },
+  {
+    "name": "Announcing the Official Release of OpenAPI 3.0",
+    "snippet": "The development of OAS 3.0 was truly a collaborative effort — not just for the members of the OpenAPI Technical Development Committee and the 27 members of the OAI, but also for the thousands of developers and architects that contributed to the efforts, sent in pull requests, and provided feedback, which helped drive the evolution of the spec.",
+    "url": "https://swagger.io/blog/news/announcing-openapi-3-0/",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "Does MS Flow support OpenAPI 3.0 format? - Power Platform ...",
+    "snippet": "Per the title of the question. We are moving our API at Tallyfy from OpenAPI 2.0 to 3.0 and wanted to know about support. Is there 100% coverage on 3.0?",
+    "url": "https://powerusers.microsoft.com/t5/Building-Flows/Does-MS-Flow-support-OpenAPI-3-0-format/td-p/160131",
+    "domain": "powerusers.microsoft.com"
+  },
+  {
+    "name": "swagger - Does OpenAPI 3.0 allow to reference server ...",
+    "snippet": "Products For Teams; Stack Overflow Public ... Does OpenAPI 3.0 allow to reference server variables? Ask Question Asked 1 year, 8 months ago. Active 1 year, 8 months ago. Viewed 1k times 2. 1. Say my OpenAPI definition has two servers. Both share the same variables. Thus I want to reference these variables to prevent duplicate code.",
+    "url": "https://stackoverflow.com/questions/56764572/does-openapi-3-0-allow-to-reference-server-variables",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "swagger - How to generate a PDF or markup from OpenAPI 3.0 ...",
+    "snippet": "I have an OpenAPI 3.0 spec and I want to generate a PDF out of it so that it can be given to the end users. Currently, tools like swagger-spec-to-pdf or swagger2markup only support Swagger 2.0 but not OpenAPI 3.0. Is it possible to generate a PDF from an OpenAPI 3.0 spec without converting it to Swagger 2.0?",
+    "url": "https://stackoverflow.com/questions/54259816/how-to-generate-a-pdf-or-markup-from-openapi-3-0",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "Support for Open API spec 3.0 · Issue #1122 · go-swagger ...",
+    "snippet": "If the OpenAPI 3.0 is correctly specified and without explicit 3.0 syntax/features (e.g anyOf, oneOf, Cookies Auth..), it's easy to do a conversion to OpenAPI 2.0 and use this tool. Copy link Contributor",
+    "url": "https://github.com/go-swagger/go-swagger/issues/1122",
+    "domain": "github.com"
+  },
+  {
+    "name": "Creating Discoverable HTTP APIs with ASP.NET Core 5 Web ...",
+    "snippet": "Swashbuckle emits Swagger/OpenAPI 2.0, 3.0, and 3.0 YAML, and can output the Swagger UI test page to make testing and documenting your APIs easy. NSwag – NSwag is another fantastic choice for generating OpenAPI documents from ASP.NET Core 5 Web API, but the NSwag team has an entire toolchain complete with NSwagStudio.",
+    "url": "https://devblogs.microsoft.com/aspnet/creating-discoverable-http-apis-with-asp-net-core-5-web-api/",
+    "domain": "devblogs.microsoft.com"
+  },
+  {
+    "name": "OpenAPI Specification 3.0 in API Management - SAP Help Portal",
+    "snippet": "In addition to supporting OAS 2.0, API Management now supports OpenAPI Specification (OAS) 3.0. API Management supports creation and import of API definitions in Open API Specification(OAS) 3.0. These OAS 3.0 API definitions can be created using API designer or existing ones can be imported using API Management import functionality.",
+    "url": "https://help.sap.com/viewer/66d066d903c2473f81ec33acfe2ccdb4/Cloud/en-US/3ce080d478a34256b5dd4e971e7961f8.html",
+    "domain": "help.sap.com"
+  },
+  {
+    "name": "Does Soap ui supports swagger 3.0 or open api 3.0 ...",
+    "snippet": "Re: Does Soap ui supports swagger 3.0 or open api 3.0 importing api spec (json) file Hi there, I got the same question/issue and figured out SoapUi is not able to import OpenAPI Files.",
+    "url": "https://community.smartbear.com/t5/SoapUI-Open-Source/Does-Soap-ui-supports-swagger-3-0-or-open-api-3-0-importing-api/td-p/174045",
+    "domain": "community.smartbear.com"
+  },
+  {
+    "name": "Learn MOAR with Spring ‘21: OpenAPI 3.0 Spec for REST API ...",
+    "snippet": "OpenAPI 3.0 spec for sObjects REST resources (Pilot) We started this journey in Winter ‘21 by producing “standard” specifications for the sObjects REST API. In Spring ‘21 we’re enhancing this by giving you an endpoint that lets you download a specification that reflects your org’s unique endpoints and object customizations.",
+    "url": "https://developer.salesforce.com/blogs/2021/01/learn-moar-with-spring-21-openapi-3-0-spec-for-rest-api.html",
+    "domain": "developer.salesforce.com"
+  },
+  {
+    "name": "Documenting your API with OpenAPI (Swagger) and Redoc ...",
+    "snippet": "OpenAPI vs/and Swagger. Short history: OpenAPI 3.0 was the first official release since it was donated to the OpenAPI initiate by the SmartBear Software (and renamed from the Swagger Specification). A lot of people still think (myself included before I did some research) that Swagger is still a specification, however, currently:",
+    "url": "https://webhookrelay.com/blog/2018/11/05/openapi-redoc-tutorial/",
+    "domain": "webhookrelay.com"
+  },
+  {
+    "name": "Open API 3.0 vs Swagger 2.0. Swagger is one of the largest ...",
+    "snippet": "But in OpenAPI 3.0, you are allowed to define multiple URLs. Now, you can have multiple “URLs”, and they can be defined anywhere (meaning you can have just one at the base like before, or a ...",
+    "url": "https://medium.com/@tgtshanika/open-api-3-0-vs-swagger-2-0-94a80f121022",
+    "domain": "medium.com"
+  },
+  {
+    "name": "Final Release of OpenAPI 3.0 Specification is Coming Soon ...",
+    "snippet": "The Open API Initiative (), an open source project guided by The Linux Foundation, has announced that the final release of the OpenAPI 3.0 Specification is tentatively scheduled for the week of July 17.A two-week \"last chance\" period will begin on June 19 giving developers a final chance to try out OpenAPI 3.0 and propose changes to the spec.",
+    "url": "https://www.programmableweb.com/news/final-release-openapi-30-specification-coming-soon/2017/06/16",
+    "domain": "programmableweb.com"
+  },
+  {
+    "name": "OpenAPI Specification 3.0 Support Release Notes | MuleSoft ...",
+    "snippet": "Currently, Anypoint Platform does not support converting OAS 3.0 APIs to OAS 2.0. To convert an API from OAS 3.0 to OAS 2.0, download the OAS 3.0 specification and convert it using a third-party or open-source tool, such as APImatic Transformer. You can upload the converted OAS 2.0 specification to Exchange.",
+    "url": "https://docs.mulesoft.com/release-notes/platform/oas3",
+    "domain": "docs.mulesoft.com"
+  },
+  {
+    "name": "OpenAPI 3.0 Tutorial | SwaggerHub Documentation",
+    "snippet": "OpenAPI 3.0 is the latest version of the OpenAPI Specification, an open-source format for describing and documenting APIs. In this tutorial, we will write a simple API definition in the OpenAPI 3.0 format.",
+    "url": "https://support.smartbear.com/swaggerhub/docs/tutorials/openapi-3-tutorial.html",
+    "domain": "support.smartbear.com"
+  },
+  {
+    "name": "OpenAPI 3.0 spec Archives - OpenAPI Initiative",
+    "snippet": "OpenAPI 3.0 spec Archives - OpenAPI Initiative. Sep 04. Love 0. From Bitmovin: Our OpenAPI journey with Standardizing SDKs ... As with most technical products, documentation is a critical factor to customer success, that sentiment is made even more true for API driven products, but good documentation is only part of the story. ...",
+    "url": "https://www.openapis.org/tag/openapi-3-0-spec",
+    "domain": "openapis.org"
+  },
+  {
+    "name": "WSO2 API Manager: Support for OpenAPI 3.0, Access Control ...",
+    "snippet": "We have introduced many security-related improvements and support for OpenAPI 3.0, which is the latest specification of Swagger. The access control for APIs in the API publisher and application sharing among multiple groups in API store have been important changes for API and application developers for collaborative developments.",
+    "url": "https://wso2.com/library/webinars/2018/06/wso2-api-manager-support-for-open-api-3-access-control-for-apis-and-more/",
+    "domain": "wso2.com"
+  },
+  {
+    "name": "The OpenAPI Spec, Based on Swagger, Reaches 3.0",
+    "snippet": "The Open API Initiative has announced the preview of the OpenAPI 3.0 with an Implementer Draft scheduled for the end of February.. The new OpenAPI 3.0 specification comes with the following main ...",
+    "url": "https://www.infoq.com/news/2017/01/openapi-3/",
+    "domain": "infoq.com"
+  },
+  {
+    "name": "OpenAPI (Swagger) 3.0 Suupport · Issue #1568 · wso2 ...",
+    "snippet": "hi, we are having issue with minor version OpenAPI v3.0.1 which is automaticaly generated, but APIM 2.2 and 2.5 is not consuming it. anyone has similar issue anyone solved it ? err>Unsupported OpenAPI version provided. Please re-import with OpenAPI 3.0.0",
+    "url": "https://github.com/wso2/product-apim/issues/1568",
+    "domain": "github.com"
+  },
+  {
+    "name": "OpenAPI tutorial using Swagger Editor and Swagger UI ...",
+    "snippet": "There are other Swagger/OpenAPI tutorials online, but make sure you follow tutorials for the 3.0 version of the API rather than 2.0. Version 3.0 was released in July 2017. 3.0 is substantially different from 2.0. (Version 3.0.2 was released in December 2017 and makes minor improvements to 3.0. Note that whenever I refer to 3.0, I’m referring ...",
+    "url": "https://idratherbewriting.com/learnapidoc/pubapis_openapi_tutorial_overview.html",
+    "domain": "idratherbewriting.com"
+  },
+  {
+    "name": "swagger-php/Getting-started.md at master - GitHub",
+    "snippet": "During processing the @OA\\JsonContent unfolds to @OA\\MediaType( mediaType=\"application/json\", @OA\\Schema(and will generate the same output.. On a similar note, you generally don't have to write a @OA\\PathItem because this annotation will be generated based on the path in operation @OA\\Get, @OA\\Post, etc.. Reusing annotations (ref) It's common that multiple requests have some overlap in either ...",
+    "url": "https://github.com/zircote/swagger-php/blob/master/docs/Getting-started.md",
+    "domain": "github.com"
+  },
+  {
+    "name": "What's new in the latest release (Version 10.0.1.1)",
+    "snippet": "For more information, see Using x-embedded-doc to add additional documentation to products and APIs. New OpenAPI 3.0 editor IBM API Connect now provides a form based editor that enables you to configure APIs that conform to the OpenAPI 3.0 specification. For more information, see Editing an OpenAPI 3.0 API definition. Berlin Group NextGen PSD2",
+    "url": "https://www.ibm.com/support/knowledgecenter/SSMNED_v10/com.ibm.apic.overview.doc/overview_whatsnew.html",
+    "domain": "ibm.com"
+  },
+  {
+    "name": "OpenAPI | henrydangprg",
+    "snippet": "So in this tutorial, we’ll learn OpenAPI in 15 minutes, starting right now. First, here is the Swagger UI generated by the OAS we will be examining. This is what an example “products” GET route with query parameters will look in Swagger UI when expanded:",
+    "url": "https://henrydangprg.com/tag/openapi/",
+    "domain": "henrydangprg.com"
+  },
+  {
+    "name": "AutoRest and OpenAPI: The backbone of Azure SDK | Azure ...",
+    "snippet": "The new V3 generation of AutoRest now supports most of the OpenAPI 3.0 specification. This enables Azure service teams to more closely model the real-world usage of their APIs. Since many existing service specifications are authored with OpenAPI 2.0, we have an early pipeline phase which converts the 2.0 specification to an equivalent OpenAPI 3 ...",
+    "url": "https://devblogs.microsoft.com/azure-sdk/code-generation-with-autorest/",
+    "domain": "devblogs.microsoft.com"
+  },
+  {
+    "name": "OpenAPI Initializer | Laravel News",
+    "snippet": "OpenAPI Initializer is a Laravel package that provides a straightforward command to scaffold an OpenAPI spec file.Once you install the package, you can run the artisan command to walk you through various questions to make the OpenAPI specification.You start by running the command:php artisan openapi:createThen th...",
+    "url": "https://laravel-news.com/openapi-initializer",
+    "domain": "laravel-news.com"
+  },
+  {
+    "name": "OpenAPI 3.0 support in IBM API Connect",
+    "snippet": "You must stage or publish OpenAPI 3.0 APIs directly by using the apic products:publish developer toolkit CLI command, or the API Connect REST APIs. There is no support for editing OpenAPI 3.0 APIs in the API Manager user interface. There might be some rendering errors in the Developer Portal test tool when OpenAPI 3.0 examples or schemas are ...",
+    "url": "https://www.ibm.com/support/knowledgecenter/SSMNED_2018/com.ibm.apic.toolkit.doc/rapic_oai3_support.html",
+    "domain": "ibm.com"
+  },
+  {
+    "name": "REST Builder & OpenAPI – Liferay Help Center",
+    "snippet": "All OpenAPI profiles have three different sections: components, info, and paths. The easiest one is the information block. It contains the OpenAPI version, the title and the version of your API: info: description: \"\" title: \"My API\" version: v1.0 openapi: 3.0.1 Indentations should be spaces. The swagger editor helps with formatting.",
+    "url": "https://help.liferay.com/hc/en-us/articles/360039425671-REST-Builder-OpenAPI",
+    "domain": "help.liferay.com"
+  },
+  {
+    "name": "OpenAPI 3.0 Support | SwaggerHub Documentation",
+    "snippet": "The format is determined by the swagger: \"2.0\" or openapi: 3.0.x line in the API or domain definition (typically, this is the first line). Besides, OpenAPI 3.0 definitions are displayed with the badge in MY hub, search results and in the editor. You can also search for and filter APIs and domains based on their format – OpenAPI 3.0 or 2.0.",
+    "url": "https://support.smartbear.com/swaggerhub/docs/openapi-3-support.html",
+    "domain": "support.smartbear.com"
+  },
+  {
+    "name": "Scanning a REST API for Vulnerabilities | Acunetix",
+    "snippet": "Kevin Attard Compagno is a Technical Writer working for Acunetix. A technical writer, translator, and general IT buff for over 30 years, Kevin used to run Technical Support teams and create training documents and other material for in-house technical staff.",
+    "url": "https://www.acunetix.com/blog/docs/scanning-rest-api-for-vulnerabilities/",
+    "domain": "acunetix.com"
+  },
+  {
+    "name": "Announcing the preview of OpenAPI Specification v3 support ...",
+    "snippet": "Azure API Management has just introduced preview support of OpenAPI Specification v3 – the latest version of the broadly used open-source standard of describing APIs. Implementation of the feature is based on the OpenAPI.NET SDK.. In this blog post we will explore: The benefits of using OpenAPI Specification for your APIs.",
+    "url": "https://azure.microsoft.com/en-us/blog/announcing-the-preview-of-openapi-specification-v3-support-in-azure-api-management/",
+    "domain": "azure.microsoft.com"
+  },
+  {
+    "name": "Amazon Advertising Advanced Tools Center",
+    "snippet": "Unable to render this definition. The provided definition does not specify a valid version field. Please indicate a valid Swagger or OpenAPI version field.",
+    "url": "https://advertising.amazon.com/API/docs/en-us/sponsored-products/2-0/openapi",
+    "domain": "advertising.amazon.com"
+  },
+  {
+    "name": "Permissions API - Azure Databricks - Workspace | Microsoft ...",
+    "snippet": "The Permissions API is provided as an OpenAPI 3.0 specification that you can download and view as a structured API reference in your favorite OpenAPI editor. Download the OpenAPI specification; View in Redocly: this link immediately opens the OpenAPI specification as a structured API reference for easy viewing. View in Postman: ...",
+    "url": "https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/permissions",
+    "domain": "docs.microsoft.com"
+  },
+  {
+    "name": "Exporting HTTP APIs as OpenAPI 3.0 Now Supported by Amazon ...",
+    "snippet": "The OpenAPI specification is standard for documenting APIs, and OpenAPI 3.0 is the latest version of the OpenAPI specification. OpenAPI 3.0 offers a number of improvements, such as a simpler structure for defining APIs and more reusable components to minimize duplication, compared to OpenAPI 2.0.",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2020/04/exporting-http-apis-as-openapi-3-now-supported-by-amazon-api-gateway/",
+    "domain": "aws.amazon.com"
+  },
+  {
+    "name": "Validate Against OpenAPI Document Assertion",
+    "snippet": "The Validate Against OpenAPI Document Assertion validates a request against the API from an OpenAPI document. You can configure the assertion properties to select specific portions of the request for validation. This assertion supports only OpenAPI 3.0 specification.",
+    "url": "https://techdocs.broadcom.com/us/en/ca-enterprise-software/layer7-api-management/api-gateway/10-0/policy-assertions/assertion-palette/message-validation-transformation-assertions/validate-against-openapi-document-assertion.html",
+    "domain": "techdocs.broadcom.com"
+  },
+  {
+    "name": "Epic: Support OpenApi 3 · Issue #945 · RicoSuter/NSwag ...",
+    "snippet": "Generate code based on the new models (should support both versions), i.e. only use OpenAPI 3 properties (which are set by the Swagger 2.0 properties) and do not use Swagger 2.0 properties anymore. Then support new OpenAPI 3.0 properties/features without breaking old and Swagger 2.0 features.",
+    "url": "https://github.com/RicoSuter/NSwag/issues/945",
+    "domain": "github.com"
+  },
+  {
+    "name": "Blog Archives - Page 3 of 9 - OpenAPI Initiative",
+    "snippet": "The members of the OpenAPI Initiative Technical Steering Committee have announced the latest release of OpenAPI Specification 3.0.2. Note: This release is a patch release and none of these modifications change the behavior of the spec. As a patch release, the latest changes were made to improve the specification in terms of readability and accuracy.",
+    "url": "https://www.openapis.org/category/blog/page/3",
+    "domain": "openapis.org"
+  },
+  {
+    "name": "rweb::openapi - Rust",
+    "snippet": "Automatic openapi spec generator. Usage. Enable cargo feature by [dependencies] rweb = { version = \"0.3.0-alpha.1\", features = [\"openapi\"] } and wrap your handlers like",
+    "url": "https://docs.rs/rweb/0.3.0-alpha.1/rweb/openapi/index.html",
+    "domain": "docs.rs"
+  },
+  {
+    "name": "Welcoming OpenAPI 3.0 to Apiary — Apiary Blog",
+    "snippet": "Back to Articles Welcoming OpenAPI 3.0 to Apiary. By Kyle (@kylefuller, kyle.fuller@oracle.com) on 06 Feb 2019 . I’m delighted to announce experimental support for OpenAPI 3.0 in Apiary. OpenAPI 3 is the new major version of the OpenAPI Specification, the successor to OpenAPI 2 (or formerly known as Swagger 2).",
+    "url": "https://blog.apiary.io/OAS-3",
+    "domain": "blog.apiary.io"
+  },
+  {
+    "name": "Release Swagger Codegen 3.0.1 has been released! - GitHub",
+    "snippet": "3.0.1 release of swagger-codegen with OpenAPI 3 support. Supported V3 generators dynamic-html html html2 java jaxrs-cxf-client jaxrs-cxf inflector jaxrs-cxf-cdi jaxrs-spec jaxrs-jersey jaxrs-di ja...",
+    "url": "https://github.com/swagger-api/swagger-codegen/releases/tag/v3.0.1",
+    "domain": "github.com"
   }
 ]
