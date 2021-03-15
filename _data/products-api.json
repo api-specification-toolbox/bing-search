@@ -676,5 +676,89 @@
     "snippet": "Asynchronous APIs are defined using the AsyncAPI 2.0.0 specification. This file is analogous to the OpenAPI specification. Synchronous APIs products use OpenAPI 3.0 for planning, documenting, and exposing their API. Conceptual flow for consuming APIs Base URL JSON:API types JSON:API types are lowercase, singular, and hyphenated. Best Practice: “type”: “policy” Best Practice: “type ...",
     "url": "https://help.britecore.com/briteapis-schema-and-conceptual-flow/",
     "domain": "help.britecore.com"
+  },
+  {
+    "name": "java - Enabling Swagger springdoc-openapi-ui (OpenAPI 3.0 ...",
+    "snippet": "Swagger OpenAPI 3.0 is working with springdoc-openapi-ui and a custom OpenAPI Bean. pom.xml <parent> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-",
+    "url": "https://stackoverflow.com/questions/66489351/enabling-swagger-springdoc-openapi-ui-openapi-3-0-with-spring-security-canno",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "Bearer Authentication - Swagger",
+    "snippet": "In OpenAPI 3.0, Bearer authentication is a security scheme with type: http and scheme: bearer. You first need to define the security scheme under components/securitySchemes, then use the security keyword to apply this scheme to the desired scope – global (as in the example below) or specific operations: openapi: 3.0.0 ...",
+    "url": "https://swagger.io/docs/specification/authentication/bearer-authentication/?ref=hackernoon.com",
+    "domain": "swagger.io"
+  },
+  {
+    "name": "flask - How to test callbacks in OpenAPI 3.0? - Stack Overflow",
+    "snippet": "I see that OpenAPI 3.0 has released callback capability and I'm struggling to understand how to properly use it. I'm a bit new to API development, so I began using this example. I generated a Pyt...",
+    "url": "https://stackoverflow.com/questions/59186572/how-to-test-callbacks-in-openapi-3-0",
+    "domain": "stackoverflow.com"
+  },
+  {
+    "name": "vue-openapi: Documentation | Openbase",
+    "snippet": "OpenAPI viewer component for VueJS. This Vue.js component is designed to easily browse and test a REST API described with the OpenAPI 3.0 Specification (formerly known as Swagger Specification). This component follows Google Material Design principles and relies on the Vue Material framework. It also relies on vue-resource to perform API requests.. See it in action :",
+    "url": "https://openbase.com/js/vue-openapi/documentation",
+    "domain": "openbase.com"
+  },
+  {
+    "name": "Domains | SwaggerHub Documentation",
+    "snippet": "A domain is a library of common components – such as parameters, responses and data models – that are used across multiple API definitions. Domains can be written by using the OpenAPI 2.0 or OpenAPI 3.0 syntax. API definitions can use domains with the matching OpenAPI version. Note for SwaggerHub On-Premise users: OpenAPI 3.0 domains are supported since v. 1.19.3.",
+    "url": "https://support.smartbear.com/swaggerhub/docs/domains/index.html",
+    "domain": "support.smartbear.com"
+  },
+  {
+    "name": "OpenAPI support in the REST step",
+    "snippet": "If the selected operation from the imported OpenAPI Specification contains a request body with a different media type, the system adds a data pill of type String to the Request body field. OpenAPI 3.0 components. OpenAPI 3.0 adds new components to Swagger 2.0 to describe an API in further detail.",
+    "url": "https://docs.servicenow.com/bundle/paris-servicenow-platform/page/administer/integrationhub/concept/open-api-integration.html",
+    "domain": "docs.servicenow.com"
+  },
+  {
+    "name": "Serverless Openapi Documentation",
+    "snippet": "Serverless OpenAPI Documentation Plugin. Generates OpenAPI 3.0.0 documentation from serverless configuration files. OpenAPI is formerly known as Swagger. The configuration is inspired by the format used in serverless-aws-documentation.. Works well with Lincoln OpenAPI Renderer.",
+    "url": "https://www.serverless.com/plugins/serverless-openapi-documentation/",
+    "domain": "serverless.com"
+  },
+  {
+    "name": "Create Virtual Services from Swagger (OpenAPI)",
+    "snippet": "Portal lets you create a virtual service from a Swagger (OpenAPI) 2.0 or 3.0 document. Assume that you want to virtualize a service that is in the early stages of development. You might not be able to create the virtual service by recording.",
+    "url": "https://techdocs.broadcom.com/us/en/ca-enterprise-software/devops/devtest-solutions/10-4/using/using-ca-service-virtualization/using-devtest-portal-with-ca-service-virtualization/create-virtual-services-from-swagger-openapi.html",
+    "domain": "techdocs.broadcom.com"
+  },
+  {
+    "name": "Kaizen Openapi Editor - awesomeopensource.com",
+    "snippet": "KaiZen OpenAPI Editor for Eclipse. KaiZen OpenAPI Editor is an Eclipse editor for the industry standard API description language, formerly known as Swagger.It now supports both Swagger-OpenAPI version 2.0 and OpenAPI version 3.0.. KaiZen Editor is a core component of RepreZen API Studio, a comprehensive solution for API modeling, documentation, visualization, testing and code generation, built ...",
+    "url": "https://awesomeopensource.com/project/RepreZen/KaiZen-OpenAPI-Editor?categoryPage=47",
+    "domain": "awesomeopensource.com"
+  },
+  {
+    "name": "OpenAPI v3 support in Azure API Management | Azure updates ...",
+    "snippet": "Azure API Management currently supports OpenAPI versions 1.2 and 2.0. Microsoft is in the process of adding support for the recently released OpenAPI version 3 of the specification in both JSON and YAML formats.",
+    "url": "https://azure.microsoft.com/en-us/updates/openapi-v3-support-in-azure-api-management/",
+    "domain": "azure.microsoft.com"
+  },
+  {
+    "name": "OAS vs. RAML: What's the Difference? | Nordic APIs",
+    "snippet": "However, what with MuleSoft now warming to the use of OAS 3.0 in its products, it’s hard to imagine RAML activity increasing much beyond that ecosystem from here on out. Final Verdict Within an industry of many standards , RAML and OAS stand out as powerful formats for modeling and/or describing APIs.",
+    "url": "https://nordicapis.com/oas-vs-raml-whats-the-difference/",
+    "domain": "nordicapis.com"
+  },
+  {
+    "name": "Multi-file OpenAPI definitions · Redocly",
+    "snippet": "Mitigation: openapi-cli has a bundle command, and Redocly has a free API Registry to build a bundled file which can be useful for others. Folder structure. We have built a free tool, create-openapi-repo, that can take an OpenAPI 3 definition and convert it to a multi-file format. It also works when you are starting from scratch without any ...",
+    "url": "https://redoc.ly/docs/resources/multi-file-definitions/",
+    "domain": "redoc.ly"
+  },
+  {
+    "name": "Does Apigee Developer Portal smartdocs support OpenAPI 3.0 ...",
+    "snippet": "- I pasted my OpenAPI 3.0 spec into the Specs section (which rendered correctly in the right view panel) - From there I clicked the create proxy button, to create a proxy from the spec. - Selected all flows, set authorization as pass through just to test, selected default and secure hosts, and it built and displayed under proxies",
+    "url": "https://community.apigee.com/questions/43498/does-apigee-developer-portal-smartdocs-support-ope.html",
+    "domain": "community.apigee.com"
+  },
+  {
+    "name": "Is it possible to validate response messages with the ...",
+    "snippet": "Hidden page that shows all messages in a thread. Hello, I'm building a Soap to Rest policy in the API Gateway and i would like to use the OpenApi Document assertion to validate the response message against an OpenApi 3.0 document.",
+    "url": "https://community.broadcom.com/enterprisesoftware/communities/community-home/digestviewer/viewthread?MessageKey=842d712f-04d8-4c8a-8c71-ca2dd67b68b6&CommunityKey=0f580f5f-30a4-41de-a75c-e5f433325a18&tab=digestviewer",
+    "domain": "community.broadcom.com"
   }
 ]
