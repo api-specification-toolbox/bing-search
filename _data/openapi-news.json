@@ -553,9 +553,9 @@
     "snippet": "ENSCHEDE, Netherlands, /PRNewswire-PRWeb/ -- BiZZdesign, the leading enterprise design and transformation software vendor, continued its profitable growth track-record unabated by Covid-19 and ended the year 2020 with exceptional financial results across all metrics.",
     "url": "https://www.marketwatch.com/press-release/under-tough-covid-19-conditions-bizzdesign-continues-record-performance-in-2020-2021-02-17",
     "domain": "marketwatch.com",
-    "keep": true,
-    "ignore": false,
-    "new": true
+    "keep": false,
+    "ignore": true,
+    "new": false
   },
   {
     "name": "Technology Keys to Building a Disruptive Networked Business",
